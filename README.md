@@ -33,7 +33,8 @@ map/
 ├── README.md
 ├── collector/              # 데이터 수집 (Python)
 │   ├── collect_facesign.py  # 페이스사인 약국 수집 (격자 기반)
-│   ├── collect_dongbaek.py  # 동백전 가맹점 수집 (공공데이터 API)
+│   ├── collect_dongbaek.py  # 동백전 가맹점 수집 (조폐공사 API + 부산시 CSV)
+│   ├── collect_drugs.py     # 약국별 비만치료제 취급 표시 수집 (네이버 플레이스)
 │   ├── merge.py             # 교집합 매칭 → web/data/pharmacies.json
 │   ├── config.py            # 지역 bbox / 설정
 │   └── requirements.txt

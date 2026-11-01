@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01 21:26:23",
+  "generatedAt": "2026-11-01 22:54:52",
   "facesignSyncYmdt": "2026-11-01 15:30:00",
   "dongbaekEnabled": true,
   "dongbaekCollectedAt": "2026-11-01 21:24:03",
@@ -19,6 +19,7 @@
     "pharmacy": 249,
     "both25": 249,
     "crossVerified": 239,
+    "withDrugInfo": 11,
     "matchBy": {
       "coord": 242,
       "addr": 7
@@ -219,6 +220,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1162364398",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -309,6 +314,11 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1188727859",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로",
+        "위고비"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -434,6 +444,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1799715286",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "오젬픽"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -974,6 +988,12 @@
       "naverUrl": "https://map.naver.com/p/entry/place/2086439064",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로",
+        "위고비",
+        "삭센다"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -1674,6 +1694,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/853840721",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -2121,6 +2145,11 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1019948008",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로",
+        "위고비"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -2460,6 +2489,11 @@
       "naverUrl": "https://map.naver.com/p/entry/place/2011429868",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로",
+        "위고비"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -3287,6 +3321,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1148047181",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -3395,6 +3433,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/2051340139",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:44:54",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -3808,6 +3850,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/76182890",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:47:52",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
@@ -4220,6 +4266,11 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1652348779",
       "facesign": true,
       "dongbaek": true,
+      "drugs": [
+        "마운자로",
+        "위고비"
+      ],
+      "drugsCheckedAt": "2026-11-01 22:47:52",
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [

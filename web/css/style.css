@@ -62,6 +62,7 @@ html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"App
 .tag.db-no{background:#f1f3f5;color:#6b7280;border-color:#e2e5e9}
 .tag.both{background:var(--red);color:#fff}
 .tag.verified{background:#eaf4ff;color:#0b63c4;border-color:#bcdcff}
+.tag.drug{background:#f3e8ff;color:#7b2ff2;border-color:#e3ccff}
 .card .actions{display:flex;gap:8px;margin-top:11px}
 .card .actions a{flex:1;text-align:center;text-decoration:none;font-size:13px;font-weight:700;
   padding:9px 0;border-radius:10px;border:1px solid var(--line);color:#374151}
@@ -80,6 +81,8 @@ html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"App
 .pin b{transform:rotate(45deg);color:#fff;font-size:11px;font-weight:800}
 .pin.both{background:var(--red)}
 .pin.face{background:#0a7c3a}
+.pin.drug{background:#7b2ff2;border-color:#fff}
+.pin.drug b{font-size:13px}
 
 /* 토스트 */
 .toast{position:absolute;left:50%;bottom:calc(var(--sheet-h) + 70px);transform:translateX(-50%);
@@ -119,4 +122,5 @@ html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"App
 .detail .dactions a.report{background:#f1f3f5;color:#374151}
 .note{background:#fff6e6;border:1px solid #ffe6b0;color:#8a5a00;font-size:12.5px;
   padding:10px 12px;border-radius:10px;margin-top:14px;line-height:1.5}
+.note.drug-note{background:#f6edff;border-color:#e3ccff;color:#5b21b6}
 .leaflet-container{font:inherit}

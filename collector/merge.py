@@ -51,6 +51,12 @@ def _load(path):
     return None
 
 
+def _load_drugs() -> dict:
+    """약국별 비만약 취급정보 (drugs.json) 로드 → {placeId(str): {drugs, checkedAt}}."""
+    d = _load(C.DATA_DIR / "drugs.json")
+    return (d or {}).get("byPlaceId", {})
+
+
 def _match_dongbaek(pharm: dict, db_coord: list[dict], db_addr_index: dict) -> dict | None:
     """좌표 근접(<=60m, 조폐공사) 또는 도로명주소 키 일치(부산시 포함)로 매칭.
 
@@ -85,6 +91,7 @@ def merge() -> dict:
     db = _load(C.DONGBAEK_OUT)
     db_enabled = bool(db and db.get("enabled"))
     db_merchants = (db or {}).get("merchants", [])
+    drugs_idx = _load_drugs()
 
     # 매칭용 인덱스 구성
     db_coord = [m for m in db_merchants if m.get("lat") and m.get("lng")]
@@ -116,6 +123,11 @@ def merge() -> dict:
             "facesign": True,          # 페이스사인 가맹(수집 기준)
             "dongbaek": None,          # None=미확인, True=가맹확인, False=미매칭
         }
+        # 비만치료제 취급 표시(네이버 플레이스 등록 정보 기반)
+        di = drugs_idx.get(str(p.get("placeId")))
+        if di and di.get("drugs"):
+            item["drugs"] = di["drugs"]
+            item["drugsCheckedAt"] = di.get("checkedAt")
         if db_enabled:
             m = _match_dongbaek(p, db_coord, db_addr_index)
             if m:
@@ -150,6 +162,7 @@ def merge() -> dict:
             "pharmacy": len(out_list),
             "both25": matched if db_enabled else None,
             "crossVerified": cross_n if db_enabled else None,
+            "withDrugInfo": sum(1 for it in out_list if it.get("drugs")),
             "matchBy": match_by if db_enabled else None,
             "sourceHit": src_hit if db_enabled else None,
         },
