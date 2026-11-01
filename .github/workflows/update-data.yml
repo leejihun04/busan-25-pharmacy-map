@@ -1,0 +1,106 @@
+name: 데이터 자동 갱신 및 배포
+
+# 매주 월요일 03:00 KST (일요일 18:00 UTC) + 수동 실행
+on:
+  schedule:
+    - cron: '0 18 * * 0'
+  workflow_dispatch:
+    inputs:
+      skip_drugs:
+        description: '비만약 취급 수집 건너뛰기(속도↑)'
+        type: boolean
+        default: false
+
+# gh-pages 푸시를 위해 쓰기 권한 필요
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 페이스사인 약국 수집 (부산)
+        working-directory: collector
+        run: python collect_facesign.py
+
+      - name: 동백전 가맹점 수집 (조폐공사 API + 선택적 부산시 CSV)
+        working-directory: collector
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          # 부산시 CSV를 레포에 두면 경로 지정(선택). 없으면 조폐공사만 사용.
+          BUSAN_CSV_PATH: ${{ github.workspace }}/collector/data/busan_dongbaek.csv
+        run: |
+          if [ -z "$DATA_GO_KR_KEY" ]; then
+            echo "::warning::DATA_GO_KR_KEY 미설정 → 동백전 매칭 없이 진행(fallback)"
+          fi
+          # CSV가 없으면 환경변수 비워서 조폐공사만 수집
+          [ -f "$BUSAN_CSV_PATH" ] || unset BUSAN_CSV_PATH
+          python collect_dongbaek.py || echo "::warning::동백전 수집 일부 실패(계속 진행)"
+
+      - name: 비만치료제 취급 수집 (네이버 플레이스)
+        if: ${{ !inputs.skip_drugs }}
+        working-directory: collector
+        env:
+          DRUG_REQUEST_DELAY: '1.0'   # 429 회피를 위해 CI 에선 더 느리게
+        run: python collect_drugs.py || echo "::warning::비만약 수집 일부 실패(계속 진행)"
+
+      - name: 교집합 매칭 → pharmacies.json
+        working-directory: collector
+        run: python merge.py
+
+      - name: 배포 전 중간 산출물 정리 (대용량 제외)
+        run: |
+          rm -f web/data/dongbaek.json web/data/dongbaek_komsco.json \
+                web/data/dongbaek_busan.json web/data/facesign.json web/data/drugs.json
+          echo "남은 데이터:"; ls -la web/data/
+
+      - name: 변경사항 확인
+        id: diff
+        run: |
+          if git diff --quiet -- web/data/pharmacies.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "변경 없음"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "pharmacies.json 변경됨"
+          fi
+
+      - name: main 에 데이터 커밋
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data/pharmacies.json
+          git commit -m "chore(data): 자동 갱신 $(date -u +%Y-%m-%d)"
+          git push origin HEAD:main
+
+      - name: gh-pages 배포 (web/ 폴더)
+        if: steps.diff.outputs.changed == 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web
+          publish_branch: gh-pages
+          commit_message: "deploy: 자동 갱신 데이터 반영"
+
+      - name: 요약
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open('web/data/pharmacies.json'))
+          c=d['counts']
+          print(f"약국 {c['pharmacy']} / 25% {c['both25']} / 교차검증 {c['crossVerified']} / 비만약 {c['withDrugInfo']}")
+          PY
