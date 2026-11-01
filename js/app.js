@@ -293,9 +293,21 @@
   $('#infoClose').addEventListener('click', () => { $('#info').hidden = true; });
   document.querySelectorAll('.modal').forEach((m) => m.addEventListener('click', (e) => { if (e.target === m) m.hidden = true; }));
 
-  // PWA service worker
+  // Service Worker 제거: 과거 버전이 코드를 캐시해 갱신을 막는 문제를 없앤다.
+  // 기존에 설치된 SW를 등록 해제하고 모든 캐시를 비운 뒤, 한 번만 새로고침한다.
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(()=>{}));
+    navigator.serviceWorker.getRegistrations().then((regs) => {
+      let had = false;
+      regs.forEach((r) => { r.unregister(); had = true; });
+      if (window.caches && caches.keys) {
+        caches.keys().then((keys) => keys.forEach((k) => caches.delete(k)));
+      }
+      // 기존 SW가 있었다면(=옛 캐시가 떠 있었을 가능성) 한 번만 강제 새로고침
+      if (had && !sessionStorage.getItem('sw_purged')) {
+        sessionStorage.setItem('sw_purged', '1');
+        location.reload();
+      }
+    }).catch(() => {});
   }
 
   load();
