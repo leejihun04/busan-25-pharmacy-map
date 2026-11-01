@@ -41,19 +41,27 @@
   const fmtDist = (m) => m === Infinity ? '' : (m < 1000 ? `${Math.round(m)}m` : `${(m/1000).toFixed(1)}km`);
   const esc = (s) => (s||'').replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
+  const drugTag = (p) => {
+    if (!p.drugs || !p.drugs.length) return '';
+    return `<span class="tag drug" title="네이버 플레이스 등록 정보 · 재고는 전화 확인 권장">💉 ${p.drugs.map(esc).join(', ')}</span>`;
+  };
+
   const dbTag = (p) => {
+    let base;
     if (p.facesign && p.dongbaek === true) {
       const cross = p.crossVerified
         ? '<span class="tag verified" title="조폐공사 공공데이터 + 부산시 동백전 명단 양쪽에서 확인">✓ 교차검증</span>'
         : '';
-      return '<span class="tag both">25% 가능</span>' + cross;
+      base = '<span class="tag both">25% 가능</span>' + cross;
+    } else {
+      const face = '<span class="tag face">페이스사인 10%</span>';
+      let db;
+      if (p.dongbaek === true) db = '<span class="tag db-yes">동백전 가맹</span>';
+      else if (p.dongbaek === false) db = '<span class="tag db-no">동백전 미확인</span>';
+      else db = '<span class="tag db-unknown">동백전 직접확인</span>';
+      base = face + db;
     }
-    const face = '<span class="tag face">페이스사인 10%</span>';
-    let db;
-    if (p.dongbaek === true) db = '<span class="tag db-yes">동백전 가맹</span>';
-    else if (p.dongbaek === false) db = '<span class="tag db-no">동백전 미확인</span>';
-    else db = '<span class="tag db-unknown">동백전 직접확인</span>';
-    return face + db;
+    return base + drugTag(p);
   };
 
   /* ---------- 데이터 로드 ---------- */
@@ -82,6 +90,7 @@
         (p.name||'').toLowerCase().includes(q) || (p.address||'').toLowerCase().includes(q));
     }
     if (state.filter === 'both') list = list.filter((p) => p.dongbaek === true);
+    if (state.filter === 'drug') list = list.filter((p) => p.drugs && p.drugs.length);
     // 거리 계산
     const origin = state.me || SEOMYEON;
     list.forEach((p) => { p._d = haversine(origin, p); });
@@ -98,10 +107,11 @@
 
   /* ---------- 마커 ---------- */
   function makeIcon(p) {
+    const hasDrug = p.drugs && p.drugs.length;
     const cls = (p.dongbaek === true) ? 'both' : 'face';
-    const label = (p.dongbaek === true) ? '25' : '약';
+    const label = hasDrug ? '💉' : ((p.dongbaek === true) ? '25' : '약');
     return L.divIcon({
-      className: '', html: `<div class="pin ${cls}"><b>${label}</b></div>`,
+      className: '', html: `<div class="pin ${cls}${hasDrug ? ' drug' : ''}"><b>${label}</b></div>`,
       iconSize: [30, 30], iconAnchor: [15, 30], popupAnchor: [0, -28],
     });
   }
@@ -166,16 +176,26 @@
   }
 
   function detailNote(p) {
+    let note = '';
+    if (p.drugs && p.drugs.length) {
+      note += `<div class="note drug-note">💉 <b>비만치료제 취급 표시</b>: ${p.drugs.map(esc).join(', ')}<br>`
+        + `네이버 플레이스에 약국이 등록한 정보입니다(확인: ${esc(p.drugsCheckedAt || '-')}). `
+        + `<b>실시간 재고가 아니므로</b> 방문 전 반드시 전화로 재고·처방 가능 여부를 확인하세요.</div>`;
+    } else {
+      note += `<div class="note">이 약국의 비만치료제(마운자로·위고비 등) 취급 정보는 확인되지 않았습니다. 취급 여부는 전화로 문의하세요(미표시가 곧 미취급은 아닙니다).</div>`;
+    }
     if (p.dongbaek === true) {
       const srcTxt = (p.dongbaekSources || []).map((s) => s === 'KOMSCO' ? '조폐공사 공공데이터' : (s === 'BUSAN' ? '부산시 동백전 명단' : s)).join(' + ');
       const cross = p.crossVerified
         ? `두 개의 독립 출처(${srcTxt})에서 모두 동백전 가맹으로 확인된 매장입니다.`
         : `동백전 가맹으로 확인된 매장입니다(출처: ${srcTxt}).`;
-      return `<div class="note">${cross} 페이스사인 가맹도 확인됨. 적립률·중복 여부는 결제 시점 정책에 따라 다를 수 있으니 매장에서 확인하세요.</div>`;
+      note += `<div class="note">${cross} 페이스사인 가맹도 확인됨. 적립률·중복 여부는 결제 시점 정책에 따라 다를 수 있으니 매장에서 확인하세요.</div>`;
+    } else if (p.dongbaek === null) {
+      note += `<div class="note">페이스사인 가맹은 확인되었으나 동백전 가맹 여부는 자동 확인되지 않았습니다. 동백전 앱 또는 매장 스티커로 확인하세요.</div>`;
+    } else {
+      note += `<div class="note">페이스사인 가맹 매장입니다. 동백전 가맹으로는 매칭되지 않았습니다.</div>`;
     }
-    if (p.dongbaek === null)
-      return `<div class="note">페이스사인 가맹은 확인되었으나 동백전 가맹 여부는 자동 확인되지 않았습니다. 동백전 앱의 가맹점 조회 또는 매장 내 스티커로 확인하세요.</div>`;
-    return `<div class="note">페이스사인 가맹 매장입니다. 동백전 가맹으로는 매칭되지 않았습니다. 변동 가능하니 매장에서 확인하세요.</div>`;
+    return note;
   }
 
   function buildReportUrl(p) {
@@ -249,6 +269,8 @@
          동백전 매칭: <code>${dbOn ? ('활성 · 25% 가능 ' + (both ?? '-') + '곳 / 교차검증 ' + (data.counts?.crossVerified ?? '-') + '곳') : '미활성(직접 확인 모드)'}</code></p>
       <h3>신뢰성: 교차검증</h3>
       <p>25% 가능 약국은 <b>한국조폐공사 공공데이터</b>(위경도 포함)와 <b>부산시 동백전 가맹점 명단</b> 두 출처로 대조합니다. 두 곳 모두에서 확인되면 <b>✓ 교차검증</b> 배지를 표시합니다.</p>
+      <h3>💉 비만치료제 취급 표시</h3>
+      <p>마운자로·위고비·삭센다 등은 <b>전문의약품</b>으로 처방전이 필요하며, 모든 약국이 취급하지 않습니다. 약국이 <b>네이버 플레이스에 등록한 정보</b>에서 해당 약품이 확인되면 <b>💉</b> 배지로 표시합니다(취급 표시 ${data.counts?.withDrugInfo ?? '-'}곳). <b>실시간 재고가 아니며</b>, 미표시가 곧 미취급을 뜻하지도 않습니다. 반드시 방문 전 전화로 확인하세요.</p>
       <h3>25% 적립 원리</h3>
       <p>동백전(부산 지역화폐, 최대 15%) 카드를 네이버페이에 등록한 뒤, 페이스사인 가맹 약국에서 페이스사인으로 결제하면 두 적립을 함께 받는 구조입니다. 적립률·중복 가능 여부는 각 사업자 정책에 따라 변동될 수 있습니다.</p>
       <h3>후기 기반 아이디어</h3>
