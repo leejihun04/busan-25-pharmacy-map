@@ -18,9 +18,9 @@
   const map = L.map('map', { zoomControl: false, attributionControl: true })
     .setView([SEOMYEON.lat, SEOMYEON.lng], 15);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    attribution: '&copy; OpenStreetMap &copy; CARTO | 데이터: 네이버페이 페이스사인·부산 동백전(비공식)',
+    attribution: '&copy; OpenStreetMap contributors | 데이터: 네이버페이 페이스사인·부산 동백전(비공식)',
   }).addTo(map);
 
   const markerLayer = L.layerGroup().addTo(map);
