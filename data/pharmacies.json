@@ -1,33 +1,16 @@
 {
-  "generatedAt": "2026-11-01 22:54:52",
+  "generatedAt": "2026-11-01 22:08:23",
   "facesignSyncYmdt": "2026-11-01 15:30:00",
-  "dongbaekEnabled": true,
-  "dongbaekCollectedAt": "2026-11-01 21:24:03",
-  "dongbaekSources": {
-    "komsco": {
-      "enabled": true,
-      "count": 222065,
-      "coordsCount": 156423
-    },
-    "busan": {
-      "enabled": true,
-      "count": 163422,
-      "coordsCount": 0
-    }
-  },
+  "dongbaekEnabled": false,
+  "dongbaekCollectedAt": null,
+  "dongbaekSources": null,
   "counts": {
     "pharmacy": 249,
-    "both25": 249,
-    "crossVerified": 239,
+    "both25": null,
+    "crossVerified": null,
     "withDrugInfo": 11,
-    "matchBy": {
-      "coord": 242,
-      "addr": 7
-    },
-    "sourceHit": {
-      "KOMSCO": 242,
-      "BUSAN": 242
-    }
+    "matchBy": null,
+    "sourceHit": null
   },
   "disclaimer": "비공식 서비스입니다. 적립 중복·적립률·가맹 여부는 매장/정책에 따라 다를 수 있으니 결제 전 매장에 직접 확인하세요.",
   "pharmacies": [
@@ -40,14 +23,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1169638687",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2098110964,
@@ -58,13 +34,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2098110964",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": null,
-      "dongbaekMatchBy": "addr",
-      "dongbaekSources": [
-        "BUSAN"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 19534182,
@@ -75,14 +45,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19534182",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1045943599,
@@ -93,14 +56,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1045943599",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 38622906,
@@ -111,14 +67,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/38622906",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13200057,
@@ -129,14 +78,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13200057",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1368160758,
@@ -147,14 +89,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1368160758",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525794,
@@ -165,14 +100,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525794",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514757,
@@ -183,14 +111,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514757",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19527475,
@@ -201,14 +122,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19527475",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1162364398,
@@ -219,18 +133,11 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1162364398",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 19525789,
@@ -241,14 +148,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525789",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 35169364,
@@ -259,14 +159,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/35169364",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1186957365,
@@ -277,14 +170,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1186957365",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525691,
@@ -295,14 +181,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525691",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1188727859,
@@ -313,18 +192,12 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1188727859",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로",
         "위고비"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 13176599,
@@ -335,14 +208,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13176599",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1492066027,
@@ -353,14 +219,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1492066027",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515369,
@@ -371,14 +230,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515369",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19519969,
@@ -389,14 +241,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19519969",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1426630908,
@@ -407,14 +252,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1426630908",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514977,
@@ -425,14 +263,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514977",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1799715286,
@@ -443,18 +274,11 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1799715286",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "오젬픽"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 1634003995,
@@ -465,14 +289,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1634003995",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525734,
@@ -483,14 +300,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525734",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13187366,
@@ -501,14 +311,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13187366",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525824,
@@ -519,14 +322,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525824",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 35169130,
@@ -537,14 +333,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/35169130",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19786938,
@@ -555,14 +344,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19786938",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19517092,
@@ -573,14 +355,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19517092",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1638217519,
@@ -591,14 +366,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1638217519",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1154660925,
@@ -609,14 +377,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1154660925",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515202,
@@ -627,14 +388,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515202",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19529961,
@@ -645,14 +399,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19529961",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515027,
@@ -663,14 +410,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515027",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514963,
@@ -681,14 +421,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514963",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2047979858,
@@ -699,14 +432,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2047979858",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1173502581,
@@ -717,14 +443,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1173502581",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1230878392,
@@ -735,14 +454,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1230878392",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515012,
@@ -753,14 +465,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515012",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1239352752,
@@ -771,14 +476,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1239352752",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525709,
@@ -789,14 +487,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525709",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13251726,
@@ -807,14 +498,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13251726",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514848,
@@ -825,14 +509,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514848",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1051134075,
@@ -843,14 +520,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1051134075",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1566306520,
@@ -861,14 +531,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1566306520",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1754224670,
@@ -879,14 +542,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1754224670",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1889397525,
@@ -897,14 +553,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1889397525",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1989840498,
@@ -915,14 +564,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1989840498",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13403060,
@@ -933,14 +575,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13403060",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2007549454,
@@ -951,14 +586,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2007549454",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514998,
@@ -969,14 +597,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514998",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2086439064,
@@ -987,20 +608,13 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2086439064",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로",
         "위고비",
         "삭센다"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 13251615,
@@ -1011,14 +625,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13251615",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1383851935,
@@ -1029,14 +636,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1383851935",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13168236,
@@ -1047,14 +647,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13168236",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525761,
@@ -1065,14 +658,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525761",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2080087584,
@@ -1083,14 +669,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2080087584",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13176622,
@@ -1101,14 +680,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13176622",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1938887229,
@@ -1119,14 +691,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1938887229",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514843,
@@ -1137,14 +702,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514843",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515120,
@@ -1155,14 +713,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515120",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1088944965,
@@ -1173,14 +724,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1088944965",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13200084,
@@ -1191,14 +735,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13200084",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1220863720,
@@ -1209,14 +746,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1220863720",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1343317076,
@@ -1227,14 +757,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1343317076",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2024239148,
@@ -1245,14 +768,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2024239148",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 20167556,
@@ -1263,14 +779,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/20167556",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525723,
@@ -1281,14 +790,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525723",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514817,
@@ -1299,14 +801,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514817",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1057733921,
@@ -1317,14 +812,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1057733921",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13250143,
@@ -1335,14 +823,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13250143",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 34332264,
@@ -1353,14 +834,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/34332264",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1959412918,
@@ -1371,14 +845,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1959412918",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1208719486,
@@ -1389,14 +856,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1208719486",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525797,
@@ -1407,14 +867,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525797",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19531418,
@@ -1425,14 +878,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19531418",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1478823013,
@@ -1443,13 +889,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1478823013",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": null,
-      "dongbaekMatchBy": "addr",
-      "dongbaekSources": [
-        "BUSAN"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 19531281,
@@ -1460,14 +900,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19531281",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13166741,
@@ -1478,13 +911,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13166741",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "KOMSCO"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 19514703,
@@ -1495,14 +922,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514703",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1935318638,
@@ -1513,14 +933,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1935318638",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13252054,
@@ -1531,14 +944,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13252054",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19526869,
@@ -1549,14 +955,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19526869",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515122,
@@ -1567,14 +966,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515122",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 16516559,
@@ -1585,14 +977,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/16516559",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19520875,
@@ -1603,14 +988,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19520875",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1713643682,
@@ -1621,14 +999,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1713643682",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525786,
@@ -1639,14 +1010,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525786",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525787,
@@ -1657,14 +1021,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525787",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1350862011,
@@ -1675,14 +1032,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1350862011",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 853840721,
@@ -1693,18 +1043,11 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/853840721",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 19514960,
@@ -1715,13 +1058,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514960",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "KOMSCO"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 543160032,
@@ -1732,14 +1069,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/543160032",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1824490455,
@@ -1750,14 +1080,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1824490455",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1593365517,
@@ -1768,14 +1091,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1593365517",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515117,
@@ -1786,14 +1102,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515117",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 21231556,
@@ -1804,13 +1113,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/21231556",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514890,
@@ -1821,14 +1124,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514890",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19527081,
@@ -1839,14 +1135,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19527081",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514717,
@@ -1857,14 +1146,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514717",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1152534018,
@@ -1875,13 +1157,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1152534018",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": null,
-      "dongbaekMatchBy": "addr",
-      "dongbaekSources": [
-        "BUSAN"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 33703185,
@@ -1892,14 +1168,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/33703185",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1931919287,
@@ -1910,14 +1179,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1931919287",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515151,
@@ -1928,14 +1190,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515151",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515018,
@@ -1946,14 +1201,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515018",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19523234,
@@ -1964,14 +1212,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19523234",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19519704,
@@ -1982,14 +1223,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19519704",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1487781120,
@@ -2000,14 +1234,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1487781120",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1391985665,
@@ -2018,14 +1245,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1391985665",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19526745,
@@ -2036,14 +1256,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19526745",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514814,
@@ -2054,14 +1267,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514814",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1382440912,
@@ -2072,14 +1278,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1382440912",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525731,
@@ -2090,14 +1289,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525731",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 31248762,
@@ -2108,14 +1300,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/31248762",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1791823051,
@@ -2126,14 +1311,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1791823051",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1019948008,
@@ -2144,19 +1322,12 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1019948008",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로",
         "위고비"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 1999741391,
@@ -2167,14 +1338,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1999741391",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515145,
@@ -2185,14 +1349,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515145",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 20115930,
@@ -2203,14 +1360,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/20115930",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515430,
@@ -2221,14 +1371,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515430",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2074280550,
@@ -2239,14 +1382,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2074280550",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19534869,
@@ -2257,14 +1393,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19534869",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1406023886,
@@ -2275,14 +1404,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1406023886",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 829400629,
@@ -2293,14 +1415,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/829400629",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1392875121,
@@ -2311,13 +1426,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1392875121",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": null,
-      "dongbaekMatchBy": "addr",
-      "dongbaekSources": [
-        "BUSAN"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 37704696,
@@ -2328,14 +1437,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/37704696",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1356342808,
@@ -2346,14 +1448,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1356342808",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1805788296,
@@ -2364,14 +1459,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1805788296",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525798,
@@ -2382,14 +1470,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525798",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1947726987,
@@ -2400,14 +1481,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1947726987",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515196,
@@ -2418,14 +1492,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515196",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 16467220,
@@ -2436,13 +1503,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/16467220",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19534778,
@@ -2453,13 +1514,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19534778",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "KOMSCO"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 19527571,
@@ -2470,14 +1525,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19527571",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2011429868,
@@ -2488,19 +1536,12 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2011429868",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로",
         "위고비"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 13251966,
@@ -2511,14 +1552,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13251966",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514988,
@@ -2529,14 +1563,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514988",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13250226,
@@ -2547,14 +1574,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13250226",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 20481163,
@@ -2565,14 +1585,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/20481163",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1557935943,
@@ -2583,14 +1596,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1557935943",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1720077669,
@@ -2601,14 +1607,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1720077669",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515089,
@@ -2619,14 +1618,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515089",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 12835162,
@@ -2637,14 +1629,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/12835162",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1045963497,
@@ -2655,14 +1640,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1045963497",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515100,
@@ -2673,14 +1651,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515100",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1901698015,
@@ -2691,14 +1662,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1901698015",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525830,
@@ -2709,14 +1673,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525830",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13252135,
@@ -2727,14 +1684,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13252135",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525796,
@@ -2745,14 +1695,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525796",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19520475,
@@ -2763,14 +1706,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19520475",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13250190,
@@ -2781,14 +1717,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13250190",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13176601,
@@ -2799,14 +1728,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13176601",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 35169246,
@@ -2817,14 +1739,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/35169246",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 37953166,
@@ -2835,14 +1750,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/37953166",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515062,
@@ -2853,14 +1761,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515062",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1695110245,
@@ -2871,14 +1772,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1695110245",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1808445720,
@@ -2889,13 +1783,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1808445720",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 37949197,
@@ -2906,14 +1794,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/37949197",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13200094,
@@ -2924,14 +1805,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13200094",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19513794,
@@ -2942,14 +1816,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19513794",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514993,
@@ -2960,14 +1827,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514993",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1166122053,
@@ -2978,14 +1838,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1166122053",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1081375709,
@@ -2996,14 +1849,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1081375709",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19527224,
@@ -3014,14 +1860,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19527224",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19531236,
@@ -3032,14 +1871,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19531236",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19528012,
@@ -3050,14 +1882,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19528012",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514751,
@@ -3068,14 +1893,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514751",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 32417481,
@@ -3086,14 +1904,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/32417481",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19528110,
@@ -3104,14 +1915,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19528110",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 37728728,
@@ -3122,14 +1926,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/37728728",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1123549246,
@@ -3140,14 +1937,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1123549246",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1633968506,
@@ -3158,14 +1948,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1633968506",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515165,
@@ -3176,14 +1959,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515165",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 32022509,
@@ -3194,14 +1970,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/32022509",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2099491741,
@@ -3212,14 +1981,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2099491741",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1739430722,
@@ -3230,14 +1992,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1739430722",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2075472510,
@@ -3248,14 +2003,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2075472510",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 31961564,
@@ -3266,14 +2014,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/31961564",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1158835578,
@@ -3284,14 +2025,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1158835578",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19526526,
@@ -3302,14 +2036,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19526526",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1148047181,
@@ -3320,18 +2047,11 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1148047181",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 16447026,
@@ -3342,14 +2062,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/16447026",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19530116,
@@ -3360,14 +2073,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19530116",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525729,
@@ -3378,14 +2084,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525729",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514829,
@@ -3396,14 +2095,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514829",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19529979,
@@ -3414,14 +2106,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19529979",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2051340139,
@@ -3432,18 +2117,11 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2051340139",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로"
       ],
-      "drugsCheckedAt": "2026-11-01 22:44:54",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 19534324,
@@ -3454,14 +2132,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19534324",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19528141,
@@ -3472,14 +2143,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19528141",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514859,
@@ -3490,14 +2154,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514859",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1826967997,
@@ -3508,14 +2165,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1826967997",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1588597681,
@@ -3526,14 +2176,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1588597681",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525718,
@@ -3544,14 +2187,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525718",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 35169405,
@@ -3562,14 +2198,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/35169405",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1261001272,
@@ -3580,14 +2209,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1261001272",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1728833867,
@@ -3598,14 +2220,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1728833867",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1111634418,
@@ -3616,14 +2231,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1111634418",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13200093,
@@ -3634,14 +2242,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13200093",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515114,
@@ -3652,14 +2253,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515114",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1474759474,
@@ -3670,14 +2264,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1474759474",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1633504464,
@@ -3688,14 +2275,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1633504464",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2058149815,
@@ -3706,13 +2286,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2058149815",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": null,
-      "dongbaekMatchBy": "addr",
-      "dongbaekSources": [
-        "BUSAN"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 19525814,
@@ -3723,14 +2297,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525814",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525837,
@@ -3741,14 +2308,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525837",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19522940,
@@ -3759,14 +2319,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19522940",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13250302,
@@ -3777,14 +2330,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13250302",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1661949812,
@@ -3795,14 +2341,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1661949812",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525675,
@@ -3813,14 +2352,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525675",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1187604854,
@@ -3831,14 +2363,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1187604854",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 76182890,
@@ -3849,18 +2374,11 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/76182890",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로"
       ],
-      "drugsCheckedAt": "2026-11-01 22:47:52",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 1298898919,
@@ -3871,14 +2389,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1298898919",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13176630,
@@ -3889,14 +2400,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13176630",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1529381087,
@@ -3907,14 +2411,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1529381087",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 13250687,
@@ -3925,14 +2422,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13250687",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 37927496,
@@ -3943,14 +2433,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/37927496",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19534985,
@@ -3961,13 +2444,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19534985",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": null,
-      "dongbaekMatchBy": "addr",
-      "dongbaekSources": [
-        "BUSAN"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 35169132,
@@ -3978,14 +2455,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/35169132",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19867269,
@@ -3996,14 +2466,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19867269",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 35170100,
@@ -4014,14 +2477,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/35170100",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1085723480,
@@ -4032,13 +2488,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1085723480",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": null,
-      "dongbaekMatchBy": "addr",
-      "dongbaekSources": [
-        "BUSAN"
-      ],
-      "crossVerified": false
+      "dongbaek": null
     },
     {
       "placeId": 35560075,
@@ -4049,14 +2499,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/35560075",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 37522964,
@@ -4067,14 +2510,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/37522964",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 21204454,
@@ -4085,14 +2521,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/21204454",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19530936,
@@ -4103,14 +2532,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19530936",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19534609,
@@ -4121,14 +2543,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19534609",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1784923399,
@@ -4139,14 +2554,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1784923399",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1308620631,
@@ -4157,14 +2565,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1308620631",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19520399,
@@ -4175,14 +2576,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19520399",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1518696538,
@@ -4193,14 +2587,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1518696538",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19524095,
@@ -4211,14 +2598,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19524095",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2078057043,
@@ -4229,14 +2609,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2078057043",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1472467280,
@@ -4247,14 +2620,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1472467280",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1652348779,
@@ -4265,19 +2631,12 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1652348779",
       "facesign": true,
-      "dongbaek": true,
+      "dongbaek": null,
       "drugs": [
         "마운자로",
         "위고비"
       ],
-      "drugsCheckedAt": "2026-11-01 22:47:52",
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "drugsCheckedAt": "2026-11-01 21:58:49"
     },
     {
       "placeId": 13252308,
@@ -4288,14 +2647,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/13252308",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 2027073266,
@@ -4306,14 +2658,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/2027073266",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1572853709,
@@ -4324,14 +2669,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1572853709",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 35169966,
@@ -4342,14 +2680,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/35169966",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1953541370,
@@ -4360,14 +2691,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1953541370",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1258357007,
@@ -4378,14 +2702,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1258357007",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1083792279,
@@ -4396,14 +2713,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1083792279",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19514794,
@@ -4414,14 +2724,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19514794",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19515142,
@@ -4432,14 +2735,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19515142",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 539333489,
@@ -4450,14 +2746,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/539333489",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19525767,
@@ -4468,14 +2757,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19525767",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 21903014,
@@ -4486,14 +2768,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/21903014",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 1608720985,
@@ -4504,14 +2779,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/1608720985",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 19527214,
@@ -4522,14 +2790,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/19527214",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     },
     {
       "placeId": 78062406,
@@ -4540,14 +2801,7 @@
       "category": "의료",
       "naverUrl": "https://map.naver.com/p/entry/place/78062406",
       "facesign": true,
-      "dongbaek": true,
-      "dongbaekStatus": "계속사업자",
-      "dongbaekMatchBy": "coord",
-      "dongbaekSources": [
-        "BUSAN",
-        "KOMSCO"
-      ],
-      "crossVerified": true
+      "dongbaek": null
     }
   ]
 }
