@@ -24,6 +24,7 @@
   }).addTo(map);
 
   const markerLayer = L.layerGroup().addTo(map);
+  const meLayer = L.layerGroup().addTo(map);   // 내 위치 전용(약국 마커 갱신과 분리)
 
   /* ---------- 유틸 ---------- */
   const toast = (msg, ms = 2600) => {
@@ -210,13 +211,20 @@
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         state.me = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-        L.circleMarker([state.me.lat, state.me.lng], { radius: 7, color: '#1a73e8', fillColor: '#1a73e8', fillOpacity: .9, weight: 3 }).addTo(markerLayer);
+        meLayer.clearLayers();
+        L.circleMarker([state.me.lat, state.me.lng], { radius: 8, color: '#fff', fillColor: '#1a73e8', fillOpacity: 1, weight: 3 })
+          .addTo(meLayer).bindTooltip('내 위치');
         map.setView([state.me.lat, state.me.lng], 16, { animate: true });
         refresh();
         toast('내 위치를 찾았습니다.');
       },
-      (err) => { toast('위치를 가져오지 못했습니다: ' + err.message); },
-      { enableHighAccuracy: true, timeout: 8000, maximumAge: 30000 }
+      (err) => {
+        const msg = { 1: '위치 권한이 거부되었습니다. 브라우저 설정에서 허용해 주세요.',
+                      2: '위치를 확인할 수 없습니다(신호 없음).',
+                      3: '위치 확인 시간이 초과됐습니다. 다시 시도해 주세요.' }[err.code] || err.message;
+        toast(msg, 4000);
+      },
+      { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 }
     );
   }
 
