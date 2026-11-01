@@ -120,12 +120,28 @@
     state.markers.clear();
     state.view.forEach((p) => {
       const m = L.marker([p.lat, p.lng], { icon: makeIcon(p) }).addTo(markerLayer);
-      m.on('click', () => showDetail(p));
+      m.on('click', () => focusOnMap(p));
       state.markers.set(p.placeId, m);
     });
   }
 
-  /* ---------- 목록 ---------- */
+  /* ---------- 목록 (카드에 모든 정보·액션 포함, 별도 상세화면 없음) ---------- */
+  function cardNote(p) {
+    const parts = [];
+    if (p.drugs && p.drugs.length) {
+      parts.push(`💉 비만약 취급 표시: <b>${p.drugs.map(esc).join(', ')}</b> · 실시간 재고 아님, 방문 전 전화 확인`);
+    }
+    if (p.dongbaek === true && p.crossVerified) {
+      parts.push('동백전·페이스사인 모두 확인(2개 출처 교차검증)');
+    } else if (p.dongbaek === true) {
+      parts.push('동백전·페이스사인 가맹 확인');
+    } else if (p.dongbaek === null) {
+      parts.push('페이스사인 확인 · 동백전은 직접 확인 필요');
+    }
+    if (!parts.length) return '';
+    return `<div class="cnote">${parts.join('<br>')}</div>`;
+  }
+
   function renderList() {
     const el = $('#list');
     $('#sheetCount').textContent = `${state.view.length}곳`;
@@ -133,69 +149,54 @@
       el.innerHTML = `<div class="empty">조건에 맞는 약국이 없습니다.<br>필터나 검색어를 바꿔보세요.</div>`;
       return;
     }
-    el.innerHTML = state.view.slice(0, 200).map((p) => `
-      <button class="card" data-id="${p.placeId}" role="listitem">
+    el.innerHTML = state.view.slice(0, 200).map((p) => {
+      const naver = p.naverUrl || ('https://map.naver.com/p/search/' + encodeURIComponent(p.name));
+      return `
+      <div class="card" data-id="${p.placeId}" role="listitem">
         <div class="row1">
           <span class="name">${esc(p.name)}</span>
           <span class="dist">${fmtDist(p._d)}</span>
         </div>
         <div class="addr">${esc(p.address)}</div>
         <div class="tags">${dbTag(p)}</div>
-      </button>`).join('');
+        ${cardNote(p)}
+        <div class="card-actions">
+          <button class="act locate-on-map" data-id="${p.placeId}" type="button">🗺️ 지도에서 보기</button>
+          <a class="act primary" href="${naver}" target="_blank" rel="noopener">📞 네이버에서 전화·재고</a>
+          <a class="act" href="${buildReportUrl(p)}">✎ 제보</a>
+        </div>
+      </div>`;
+    }).join('');
+    // 카드의 "지도에서 보기"만 지도 이동(카드 전체 클릭도 동일), 링크는 기본 동작
+    el.querySelectorAll('.locate-on-map').forEach((b) => {
+      b.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const p = state.all.find((x) => String(x.placeId) === b.dataset.id);
+        if (p) focusOnMap(p);
+      });
+    });
     el.querySelectorAll('.card').forEach((c) => {
-      c.addEventListener('click', () => {
+      c.addEventListener('click', (e) => {
+        if (e.target.closest('a') || e.target.closest('button')) return; // 버튼/링크는 각자 처리
         const p = state.all.find((x) => String(x.placeId) === c.dataset.id);
-        if (p) showDetail(p);
+        if (p) focusOnMap(p);
       });
     });
   }
 
-  /* ---------- 상세 ---------- */
-  function showDetail(p) {
-    state.selected = p;
-    map.setView([p.lat, p.lng], Math.max(map.getZoom(), 16), { animate: true });
+  /* 카드 선택 시 지도만 이동(별도 상세 화면 없음) */
+  function focusOnMap(p) {
+    collapseSheet();                 // 지도가 보이도록 시트 접기
+    map.setView([p.lat, p.lng], 17, { animate: true });
     const mk = state.markers.get(p.placeId);
-    if (mk) mk.openPopup?.();
-
-    const el = $('#list');
-    const reportUrl = buildReportUrl(p);
-    el.innerHTML = `
-      <div class="detail">
-        <div class="dname">${esc(p.name)}</div>
-        <div class="daddr">${esc(p.address)}</div>
-        <div class="tags" style="margin-top:12px">${dbTag(p)}</div>
-        <div class="dactions">
-          <a class="nav" href="${p.naverUrl || ('https://map.naver.com/p/search/' + encodeURIComponent(p.name))}" target="_blank" rel="noopener">네이버 지도에서 보기</a>
-          <a class="report" href="${reportUrl}" target="_blank" rel="noopener">정보 제보</a>
-        </div>
-        ${detailNote(p)}
-      </div>`;
-    $('#sheetTitle').textContent = '약국 상세';
-    $('#sheetBack').hidden = false;
-    expandSheet(true);
-  }
-
-  function detailNote(p) {
-    let note = '';
-    if (p.drugs && p.drugs.length) {
-      note += `<div class="note drug-note">💉 <b>비만치료제 취급 표시</b>: ${p.drugs.map(esc).join(', ')}<br>`
-        + `네이버 플레이스에 약국이 등록한 정보입니다(확인: ${esc(p.drugsCheckedAt || '-')}). `
-        + `<b>실시간 재고가 아니므로</b> 방문 전 반드시 전화로 재고·처방 가능 여부를 확인하세요.</div>`;
-    } else {
-      note += `<div class="note">이 약국의 비만치료제(마운자로·위고비 등) 취급 정보는 확인되지 않았습니다. 취급 여부는 전화로 문의하세요(미표시가 곧 미취급은 아닙니다).</div>`;
+    if (mk) {
+      mk.bindPopup(
+        `<b>${esc(p.name)}</b><br>${esc(p.address)}` +
+        (p.drugs && p.drugs.length ? `<br>💉 ${p.drugs.map(esc).join(', ')}` : ''),
+        { offset: [0, -24] }
+      ).openPopup();
     }
-    if (p.dongbaek === true) {
-      const srcTxt = (p.dongbaekSources || []).map((s) => s === 'KOMSCO' ? '조폐공사 공공데이터' : (s === 'BUSAN' ? '부산시 동백전 명단' : s)).join(' + ');
-      const cross = p.crossVerified
-        ? `두 개의 독립 출처(${srcTxt})에서 모두 동백전 가맹으로 확인된 매장입니다.`
-        : `동백전 가맹으로 확인된 매장입니다(출처: ${srcTxt}).`;
-      note += `<div class="note">${cross} 페이스사인 가맹도 확인됨. 적립률·중복 여부는 결제 시점 정책에 따라 다를 수 있으니 매장에서 확인하세요.</div>`;
-    } else if (p.dongbaek === null) {
-      note += `<div class="note">페이스사인 가맹은 확인되었으나 동백전 가맹 여부는 자동 확인되지 않았습니다. 동백전 앱 또는 매장 스티커로 확인하세요.</div>`;
-    } else {
-      note += `<div class="note">페이스사인 가맹 매장입니다. 동백전 가맹으로는 매칭되지 않았습니다.</div>`;
-    }
-    return note;
+    toast(`${p.name} 위치로 이동`);
   }
 
   function buildReportUrl(p) {
@@ -205,21 +206,23 @@
     return `mailto:?subject=${subject}&body=${body}`;
   }
 
-  /* ---------- 시트 드래그 ---------- */
+  /* ---------- 시트 토글 (드래그 대신 버튼 — 웹에서 당겨내리기는 새로고침과 충돌) ---------- */
   function expandSheet(on) {
     $('#sheet').classList.toggle('expanded', !!on);
+    document.body.classList.toggle('sheet-expanded', !!on);
+    updateSheetToggleLabel();
+    // 시트 높이 변화 후 지도 레이아웃 갱신(타일 깨짐 방지)
+    setTimeout(() => map.invalidateSize(), 250);
   }
-  (() => {
-    const grip = $('#sheetGrip'); let startY = 0, expanded = false;
-    const sheet = $('#sheet');
-    grip.addEventListener('pointerdown', (e) => { startY = e.clientY; expanded = sheet.classList.contains('expanded'); grip.setPointerCapture(e.pointerId); });
-    grip.addEventListener('pointerup', (e) => {
-      const dy = e.clientY - startY;
-      if (dy < -40) expandSheet(true);
-      else if (dy > 40) expandSheet(false);
-      else expandSheet(!expanded);
-    });
-  })();
+  function collapseSheet() { expandSheet(false); }
+  function toggleSheet() { expandSheet(!$('#sheet').classList.contains('expanded')); }
+  function updateSheetToggleLabel() {
+    const btn = $('#sheetToggle');
+    if (!btn) return;
+    const expanded = $('#sheet').classList.contains('expanded');
+    btn.textContent = expanded ? '목록 접기 ▾' : '목록 펼치기 ▴';
+    btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  }
 
   /* ---------- 위치 동의 & GPS ---------- */
   function openConsent() { $('#consent').hidden = false; }
@@ -283,7 +286,6 @@
   $('#q').addEventListener('input', (e) => {
     state.query = e.target.value;
     $('#qClear').hidden = !state.query;
-    $('#sheetBack').hidden = true; $('#sheetTitle').textContent = '주변 약국';
     refresh();
   });
   $('#qClear').addEventListener('click', () => { $('#q').value=''; state.query=''; $('#qClear').hidden=true; refresh(); });
@@ -295,15 +297,12 @@
       document.querySelectorAll('.chip').forEach((c) => c.classList.remove('active'));
       chip.classList.add('active');
       state.filter = f;
-      $('#sheetBack').hidden = true; $('#sheetTitle').textContent = '주변 약국';
       refresh();
     });
   });
 
   $('#locate').addEventListener('click', handleLocateClick);
-  $('#sheetBack').addEventListener('click', () => {
-    state.selected = null; $('#sheetBack').hidden = true; $('#sheetTitle').textContent = '주변 약국'; renderList();
-  });
+  $('#sheetToggle').addEventListener('click', toggleSheet);
 
   // 동의 모달
   $('#consentAgree').addEventListener('change', (e) => { $('#consentOk').disabled = !e.target.checked; });

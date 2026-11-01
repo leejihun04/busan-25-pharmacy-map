@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>부산 25% 약국 지도 · 동백전+페이스사인</title>
   <meta name="description" content="부산에서 동백전 적립과 네이버페이 페이스사인 적립을 함께 받을 수 있는 약국을 지도에서 찾아보세요." />
   <meta name="theme-color" content="#e8402a" />
@@ -63,11 +63,10 @@
 
     <!-- 하단 목록 시트 -->
     <section id="sheet" class="sheet" aria-label="약국 목록">
-      <div class="sheet-grip" id="sheetGrip"><span></span></div>
+      <button id="sheetToggle" class="sheet-toggle" type="button" aria-expanded="false">목록 펼치기 ▴</button>
       <div class="sheet-head">
         <strong id="sheetTitle">주변 약국</strong>
         <span id="sheetCount" class="count"></span>
-        <button id="sheetBack" class="back" type="button" hidden>목록으로</button>
       </div>
       <div id="list" class="list" role="list"></div>
 
