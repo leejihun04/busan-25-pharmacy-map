@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+deploy/.deploy-state
+.DS_Store
+/tmp/
+
+# 수집 중간 산출물(대용량) — 배포 불필요. 프론트는 pharmacies.json 만 사용.
+web/data/dongbaek.json
+web/data/dongbaek_komsco.json
+web/data/dongbaek_busan.json
+web/data/facesign.json

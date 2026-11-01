@@ -1,0 +1,4502 @@
+{
+  "generatedAt": "2026-11-01 21:26:23",
+  "facesignSyncYmdt": "2026-11-01 15:30:00",
+  "dongbaekEnabled": true,
+  "dongbaekCollectedAt": "2026-11-01 21:24:03",
+  "dongbaekSources": {
+    "komsco": {
+      "enabled": true,
+      "count": 222065,
+      "coordsCount": 156423
+    },
+    "busan": {
+      "enabled": true,
+      "count": 163422,
+      "coordsCount": 0
+    }
+  },
+  "counts": {
+    "pharmacy": 249,
+    "both25": 249,
+    "crossVerified": 239,
+    "matchBy": {
+      "coord": 242,
+      "addr": 7
+    },
+    "sourceHit": {
+      "KOMSCO": 242,
+      "BUSAN": 242
+    }
+  },
+  "disclaimer": "비공식 서비스입니다. 적립 중복·적립률·가맹 여부는 매장/정책에 따라 다를 수 있으니 결제 전 매장에 직접 확인하세요.",
+  "pharmacies": [
+    {
+      "placeId": 1169638687,
+      "name": "25시약국",
+      "address": "부산 동구 조방로 45",
+      "lat": 35.1405257,
+      "lng": 129.0603352,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1169638687",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2098110964,
+      "name": "365에코약국",
+      "address": "부산 강서구 에코델타5로 60 상가 119동 111호",
+      "lat": 35.1503932,
+      "lng": 128.9180038,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2098110964",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": null,
+      "dongbaekMatchBy": "addr",
+      "dongbaekSources": [
+        "BUSAN"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 19534182,
+      "name": "가까운약국",
+      "address": "부산 동래구 충렬대로181번길 17",
+      "lat": 35.2045876,
+      "lng": 129.0797945,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19534182",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1045943599,
+      "name": "가온샘약국",
+      "address": "부산 금정구 장전로 10 104호",
+      "lat": 35.227792,
+      "lng": 129.0876435,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1045943599",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 38622906,
+      "name": "감천우리들약국",
+      "address": "부산 사하구 옥천로 2",
+      "lat": 35.0878177,
+      "lng": 129.0052245,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/38622906",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13200057,
+      "name": "강약국",
+      "address": "부산 부산진구 가야대로 785 성영빌딩",
+      "lat": 35.1579035,
+      "lng": 129.0575333,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13200057",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1368160758,
+      "name": "개금현대약국",
+      "address": "부산 부산진구 엄광로 33 1층",
+      "lat": 35.1483102,
+      "lng": 129.0197431,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1368160758",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525794,
+      "name": "건강플러스약국",
+      "address": "부산 동래구 쇠미로81번길 22 사직2차삼정그린코아아파트 주상가동 101호",
+      "lat": 35.2008901,
+      "lng": 129.0557685,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525794",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514757,
+      "name": "건강한약국",
+      "address": "부산 남구 수영로 195-2 대연치과",
+      "lat": 35.1351443,
+      "lng": 129.0880454,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514757",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19527475,
+      "name": "건강한온누리약국",
+      "address": "부산 중구 대청로 70-1 1층",
+      "lat": 35.1028937,
+      "lng": 129.0276078,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19527475",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1162364398,
+      "name": "겸애약국",
+      "address": "부산 동래구 충렬대로 385",
+      "lat": 35.1973652,
+      "lng": 129.1007587,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1162364398",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525789,
+      "name": "경남약국",
+      "address": "부산 사상구 사상로 194 경남약국",
+      "lat": 35.1625517,
+      "lng": 128.9847312,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525789",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 35169364,
+      "name": "고려약국",
+      "address": "부산 해운대구 해운대로89번길 10 고려약국",
+      "lat": 35.1892926,
+      "lng": 129.1211518,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/35169364",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1186957365,
+      "name": "구명약국",
+      "address": "부산 영도구 동삼로 56 2층",
+      "lat": 35.0783595,
+      "lng": 129.0707473,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1186957365",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525691,
+      "name": "구서약국",
+      "address": "부산 금정구 구서로 23 화신빌딩제1동",
+      "lat": 35.2467079,
+      "lng": 129.0886366,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525691",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1188727859,
+      "name": "구포큰약국",
+      "address": "부산 북구 금곡대로 14 지하상가",
+      "lat": 35.2101598,
+      "lng": 129.0053713,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1188727859",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13176599,
+      "name": "굿모닝약국",
+      "address": "부산 중구 흑교로52번길 6-1",
+      "lat": 35.1042614,
+      "lng": 129.0254492,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13176599",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1492066027,
+      "name": "금강약국",
+      "address": "부산 사상구 낙동대로 780 희망메디컬 101호",
+      "lat": 35.1302603,
+      "lng": 128.9716329,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1492066027",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515369,
+      "name": "금샘약국",
+      "address": "부산 금정구 금강로 711",
+      "lat": 35.2710535,
+      "lng": 129.0889418,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515369",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19519969,
+      "name": "기린약국",
+      "address": "부산 동구 중앙대로 517",
+      "lat": 35.1394355,
+      "lng": 129.0562564,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19519969",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1426630908,
+      "name": "나은약국",
+      "address": "부산 부산진구 가야대로 414",
+      "lat": 35.1521009,
+      "lng": 129.0179057,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1426630908",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514977,
+      "name": "남영사약국",
+      "address": "부산 사하구 제석로 54",
+      "lat": 35.1054539,
+      "lng": 128.97466,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514977",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1799715286,
+      "name": "남천온누리약국",
+      "address": "부산 수영구 수영로388번길 6 남천온누리약국",
+      "lat": 35.1410899,
+      "lng": 129.1071531,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1799715286",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1634003995,
+      "name": "내몸에좋은약국",
+      "address": "부산 해운대구 재반로 176 지하1층 102호",
+      "lat": 35.1930828,
+      "lng": 129.1295834,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1634003995",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525734,
+      "name": "녹십자약국",
+      "address": "부산 사상구 학감대로49번길 34 학장도개공아파트",
+      "lat": 35.1367257,
+      "lng": 128.9923782,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525734",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13187366,
+      "name": "뉴송도약국",
+      "address": "부산 서구 충무대로 8 기산비치타운상가 1층",
+      "lat": 35.076423,
+      "lng": 129.0162725,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13187366",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525824,
+      "name": "늘푸른약국",
+      "address": "부산 수영구 수영로 390-1 메트로병원",
+      "lat": 35.1412487,
+      "lng": 129.1073624,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525824",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 35169130,
+      "name": "늘푸른약국",
+      "address": "부산 중구 자갈치로37번길 4",
+      "lat": 35.0971815,
+      "lng": 129.0284627,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/35169130",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19786938,
+      "name": "다사랑 온누리약국",
+      "address": "부산 사상구 사상로 236 1층 2호",
+      "lat": 35.1659695,
+      "lng": 128.9829386,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19786938",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19517092,
+      "name": "다송약국",
+      "address": "부산 사하구 다대로 381 1층",
+      "lat": 35.068671,
+      "lng": 128.9784079,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19517092",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1638217519,
+      "name": "다온 온누리약국",
+      "address": "부산 북구 만덕대로27번길 3 세빈빌딩 1층",
+      "lat": 35.2109474,
+      "lng": 129.0079411,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1638217519",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1154660925,
+      "name": "다정온누리약국",
+      "address": "부산 서구 까치고개로 195 1층",
+      "lat": 35.1000195,
+      "lng": 129.0173587,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1154660925",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515202,
+      "name": "대도약국",
+      "address": "부산 동래구 금강공원로 28",
+      "lat": 35.2191694,
+      "lng": 129.0815205,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515202",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19529961,
+      "name": "대림약국",
+      "address": "부산 북구 금곡대로 270 화명동대림타운",
+      "lat": 35.232358,
+      "lng": 129.0138967,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19529961",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515027,
+      "name": "대영남약국",
+      "address": "부산 부산진구 중앙대로 769",
+      "lat": 35.161029,
+      "lng": 129.0614586,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515027",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514963,
+      "name": "대지약국",
+      "address": "부산 사하구 옥천로 37 감천빌딩",
+      "lat": 35.0907577,
+      "lng": 129.006471,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514963",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2047979858,
+      "name": "더밸런스약국",
+      "address": "부산 강서구 명지국제11로 73 1층",
+      "lat": 35.104263,
+      "lng": 128.9265535,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2047979858",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1173502581,
+      "name": "더좋은약사와약국",
+      "address": "부산 해운대구 구남로29번길 9",
+      "lat": 35.1619446,
+      "lng": 129.1612651,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1173502581",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1230878392,
+      "name": "덕천프라자약국",
+      "address": "부산 북구 만덕대로 24",
+      "lat": 35.2105484,
+      "lng": 129.0077762,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1230878392",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515012,
+      "name": "동광약국",
+      "address": "부산 부산진구 백양관문로 3",
+      "lat": 35.1594391,
+      "lng": 129.031181,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515012",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1239352752,
+      "name": "동래온누리약국",
+      "address": "부산 동래구 동래로136번길 30 1층 동래온누리약국",
+      "lat": 35.2049901,
+      "lng": 129.0845196,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1239352752",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525709,
+      "name": "동보약국",
+      "address": "부산 해운대구 센텀동로 6 홈플러스센텀시티점 3층",
+      "lat": 35.1707419,
+      "lng": 129.1342214,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525709",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13251726,
+      "name": "동부약국",
+      "address": "부산 해운대구 재반로 153",
+      "lat": 35.1917901,
+      "lng": 129.1280152,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13251726",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514848,
+      "name": "동산약국",
+      "address": "부산 사상구 백양대로 945",
+      "lat": 35.1905882,
+      "lng": 128.991578,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514848",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1051134075,
+      "name": "동아후문약국",
+      "address": "부산 서구 동대로19번길 32",
+      "lat": 35.1192577,
+      "lng": 129.0184385,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1051134075",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1566306520,
+      "name": "드래곤약국",
+      "address": "부산 북구 금곡대로 287 102호",
+      "lat": 35.2341962,
+      "lng": 129.0132956,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1566306520",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1754224670,
+      "name": "드림i약국",
+      "address": "부산 동래구 충렬대로100번길 25 드림i약국",
+      "lat": 35.2060484,
+      "lng": 129.0713958,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1754224670",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1889397525,
+      "name": "드림약국",
+      "address": "부산 부산진구 서면로 68",
+      "lat": 35.1569386,
+      "lng": 129.0579475,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1889397525",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1989840498,
+      "name": "레몬약국",
+      "address": "부산 북구 만덕대로 16",
+      "lat": 35.2103081,
+      "lng": 129.0068048,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1989840498",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13403060,
+      "name": "롯데약국",
+      "address": "부산 금정구 구서로 17 덕원메디컬",
+      "lat": 35.2466799,
+      "lng": 129.0890672,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13403060",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2007549454,
+      "name": "마린약국",
+      "address": "부산 해운대구 구남로 39 1층",
+      "lat": 35.1608297,
+      "lng": 129.1614303,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2007549454",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514998,
+      "name": "맑은샘약국",
+      "address": "부산 영도구 태종로 85-1",
+      "lat": 35.0920056,
+      "lng": 129.0405054,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514998",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2086439064,
+      "name": "메가자이언트약국",
+      "address": "부산 사상구 낙동대로 733 롯데마트 사상점 3층 메가자이언트 약국",
+      "lat": 35.1276629,
+      "lng": 128.9683725,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2086439064",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13251615,
+      "name": "메디칼사랑약국",
+      "address": "부산 연제구 과정로 102 메디칼사랑약국",
+      "lat": 35.1805659,
+      "lng": 129.107304,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13251615",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1383851935,
+      "name": "메디컬탑약국",
+      "address": "부산 사하구 사하로 200 형지스퀘어 1층",
+      "lat": 35.0996296,
+      "lng": 128.9935798,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1383851935",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13168236,
+      "name": "메디팜 큰사랑약국",
+      "address": "부산 서구 대영로 84",
+      "lat": 35.1107863,
+      "lng": 129.0202589,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13168236",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525761,
+      "name": "메디팜동산약국",
+      "address": "부산 수영구 수영로464번길 9",
+      "lat": 35.1472787,
+      "lng": 129.1110702,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525761",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2080087584,
+      "name": "메디플렉스약국",
+      "address": "부산 강서구 르노삼성대로 681 C동 1층",
+      "lat": 35.1081259,
+      "lng": 128.9296205,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2080087584",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13176622,
+      "name": "명륜당약국",
+      "address": "부산 남구 지게골로 46 명륜당약국",
+      "lat": 35.1355508,
+      "lng": 129.0704216,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13176622",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1938887229,
+      "name": "명장온누리약국",
+      "address": "부산 동래구 명장로 50",
+      "lat": 35.2046448,
+      "lng": 129.1064725,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1938887229",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514843,
+      "name": "모라명성약국",
+      "address": "부산 사상구 사상로 481",
+      "lat": 35.1874353,
+      "lng": 128.9874199,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514843",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515120,
+      "name": "모라열린약국",
+      "address": "부산 사상구 백양대로 886 정예독서실",
+      "lat": 35.1855721,
+      "lng": 128.9914447,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515120",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1088944965,
+      "name": "무지개약국",
+      "address": "부산 기장군 일광읍 해빛6로 85-16",
+      "lat": 35.2657225,
+      "lng": 129.2255799,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1088944965",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13200084,
+      "name": "문창약국",
+      "address": "부산 금정구 금강로 264",
+      "lat": 35.2315418,
+      "lng": 129.0853087,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13200084",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1220863720,
+      "name": "미남정약국",
+      "address": "부산 동래구 아시아드대로 239-1 1층",
+      "lat": 35.2054534,
+      "lng": 129.0674535,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1220863720",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1343317076,
+      "name": "미래약국",
+      "address": "부산 수영구 수영로 386-1",
+      "lat": 35.1409796,
+      "lng": 129.1070746,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1343317076",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2024239148,
+      "name": "미래약국",
+      "address": "부산 수영구 민락수변로17번길 36 1층 103호",
+      "lat": 35.1545716,
+      "lng": 129.1260731,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2024239148",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 20167556,
+      "name": "미래약국",
+      "address": "부산 중구 대청로 88-1",
+      "lat": 35.1027974,
+      "lng": 129.0295646,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/20167556",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525723,
+      "name": "미소약국",
+      "address": "부산 부산진구 양지로5번길 31 미소약국",
+      "lat": 35.1712269,
+      "lng": 129.0701756,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525723",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514817,
+      "name": "미소약국",
+      "address": "부산 사상구 사상로 325 부산정형외과",
+      "lat": 35.1737893,
+      "lng": 128.9837444,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514817",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1057733921,
+      "name": "미솜약국",
+      "address": "부산 금정구 서동로 159 1층 미솜약국",
+      "lat": 35.2148083,
+      "lng": 129.1041364,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1057733921",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13250143,
+      "name": "민정약국",
+      "address": "부산 영도구 태종로 332",
+      "lat": 35.0961976,
+      "lng": 129.0616838,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13250143",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 34332264,
+      "name": "민트약국",
+      "address": "부산 수영구 광남로 203",
+      "lat": 35.1588077,
+      "lng": 129.1212473,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/34332264",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1959412918,
+      "name": "믿음약국",
+      "address": "부산 부산진구 중앙대로 733 1층 믿음약국",
+      "lat": 35.1584441,
+      "lng": 129.0592048,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1959412918",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1208719486,
+      "name": "바른약국",
+      "address": "부산 연제구 월드컵대로 186 1층, 바른약국",
+      "lat": 35.1881321,
+      "lng": 129.0764922,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1208719486",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525797,
+      "name": "반송조은약국",
+      "address": "부산 해운대구 신반송로 207",
+      "lat": 35.230436,
+      "lng": 129.1573112,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525797",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19531418,
+      "name": "밝은미소약국",
+      "address": "부산 북구 금곡대로 161",
+      "lat": 35.2235129,
+      "lng": 129.0089966,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19531418",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1478823013,
+      "name": "백약국",
+      "address": "부산 금정구 중앙대로 2238",
+      "lat": 35.2841547,
+      "lng": 129.0950005,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1478823013",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": null,
+      "dongbaekMatchBy": "addr",
+      "dongbaekSources": [
+        "BUSAN"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 19531281,
+      "name": "백일약국",
+      "address": "부산 해운대구 좌동순환로249번길 21 아이에스프라자",
+      "lat": 35.1741298,
+      "lng": 129.1819237,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19531281",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13166741,
+      "name": "버드나무약국",
+      "address": "부산 서구 대영로 80-1 1층",
+      "lat": 35.1107029,
+      "lng": 129.020038,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13166741",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 19514703,
+      "name": "범일사약국",
+      "address": "부산 동구 범일로 97",
+      "lat": 35.1386368,
+      "lng": 129.0591511,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514703",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1935318638,
+      "name": "베스트정약국",
+      "address": "부산 북구 화명대로 5 101호 베스트정약국",
+      "lat": 35.235453,
+      "lng": 129.0089421,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1935318638",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13252054,
+      "name": "보건당약국",
+      "address": "부산 연제구 중앙대로 1092 1층",
+      "lat": 35.1850652,
+      "lng": 129.0811483,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13252054",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19526869,
+      "name": "보건약국",
+      "address": "부산 동래구 충렬대로459번길 21 신호빌딩",
+      "lat": 35.1959829,
+      "lng": 129.1095344,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19526869",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515122,
+      "name": "보람약국",
+      "address": "부산 금정구 부곡로 120-1 1층",
+      "lat": 35.2265586,
+      "lng": 129.0919927,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515122",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 16516559,
+      "name": "보생당약국",
+      "address": "부산 동래구 충렬대로 91",
+      "lat": 35.2074936,
+      "lng": 129.0711317,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/16516559",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19520875,
+      "name": "보은약국",
+      "address": "부산 북구 만덕대로 55 1층",
+      "lat": 35.2117049,
+      "lng": 129.0110351,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19520875",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1713643682,
+      "name": "부곡햇살약국",
+      "address": "부산 금정구 가마실로 21",
+      "lat": 35.2248477,
+      "lng": 129.0912279,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1713643682",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525786,
+      "name": "부산진약국",
+      "address": "부산 부산진구 동성로 152",
+      "lat": 35.1618013,
+      "lng": 129.062726,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525786",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525787,
+      "name": "비타민약국",
+      "address": "부산 동래구 충렬대로 222",
+      "lat": 35.2016538,
+      "lng": 129.0833773,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525787",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1350862011,
+      "name": "빠른후문약국",
+      "address": "부산 부산진구 엄광로44번길 36-4",
+      "lat": 35.1466153,
+      "lng": 129.0213829,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1350862011",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 853840721,
+      "name": "사랑온누리약국",
+      "address": "부산 금정구 금강로 206-16 101호",
+      "lat": 35.2264324,
+      "lng": 129.0833393,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/853840721",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514960,
+      "name": "삼거리약국",
+      "address": "부산 사하구 옥천로 73",
+      "lat": 35.0931629,
+      "lng": 129.0090185,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514960",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 543160032,
+      "name": "삼보온누리약국",
+      "address": "부산 북구 금곡대로 270 대림상가 102호",
+      "lat": 35.2323787,
+      "lng": 129.0138866,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/543160032",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1824490455,
+      "name": "삼성온누리약국",
+      "address": "부산 기장군 기장읍 차성동로116번길 5 1층 101호",
+      "lat": 35.24817,
+      "lng": 129.2176869,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1824490455",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1593365517,
+      "name": "삼정온누리약국",
+      "address": "부산 동래구 여고로 12 거인병원 1층",
+      "lat": 35.1946873,
+      "lng": 129.0654024,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1593365517",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515117,
+      "name": "삼화약국",
+      "address": "부산 연제구 반송로 12",
+      "lat": 35.1866833,
+      "lng": 129.0826977,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515117",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 21231556,
+      "name": "삼화약국",
+      "address": "부산 해운대구 재반로165번길 112 부원독서실",
+      "lat": 35.1915211,
+      "lng": 129.124353,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/21231556",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514890,
+      "name": "새나라온누리약국",
+      "address": "부산 연제구 거제천로 89 이안빌딩 1층",
+      "lat": 35.1821915,
+      "lng": 129.0731726,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514890",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19527081,
+      "name": "새미소약국",
+      "address": "부산 해운대구 좌동로 66",
+      "lat": 35.1707624,
+      "lng": 129.1730544,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19527081",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514717,
+      "name": "새부산약국",
+      "address": "부산 중구 광복로 31-1",
+      "lat": 35.0994512,
+      "lng": 129.0286628,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514717",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1152534018,
+      "name": "새행복약국",
+      "address": "부산 연제구 고분로 200",
+      "lat": 35.1851393,
+      "lng": 129.1042291,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1152534018",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": null,
+      "dongbaekMatchBy": "addr",
+      "dongbaekSources": [
+        "BUSAN"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 33703185,
+      "name": "서면금약국",
+      "address": "부산 부산진구 서전로 1",
+      "lat": 35.1580217,
+      "lng": 129.0599358,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/33703185",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1931919287,
+      "name": "서문약국",
+      "address": "부산 연제구 연동로8번길 44 1층",
+      "lat": 35.1893333,
+      "lng": 129.0914956,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1931919287",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515151,
+      "name": "선일약국",
+      "address": "부산 동래구 충렬대로249번길 55",
+      "lat": 35.2038575,
+      "lng": 129.0867701,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515151",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515018,
+      "name": "선화약국",
+      "address": "부산 부산진구 서전로10번길 60",
+      "lat": 35.155278,
+      "lng": 129.0597751,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515018",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19523234,
+      "name": "성모메디칼약국",
+      "address": "부산 남구 용호로232번길 25-5 평화약국 성모메디칼약국",
+      "lat": 35.1110951,
+      "lng": 129.1097018,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19523234",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19519704,
+      "name": "성신약국",
+      "address": "부산 남구 용호로232번길 21 1층",
+      "lat": 35.1112987,
+      "lng": 129.1096193,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19519704",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1487781120,
+      "name": "성원약국",
+      "address": "부산 부산진구 백양관문로 106 1층",
+      "lat": 35.1682092,
+      "lng": 129.0280281,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1487781120",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1391985665,
+      "name": "세연약국",
+      "address": "부산 해운대구 해운대로 365",
+      "lat": 35.1703419,
+      "lng": 129.1374361,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1391985665",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19526745,
+      "name": "세인약국",
+      "address": "부산 동래구 미남로146번길 3",
+      "lat": 35.2068462,
+      "lng": 129.070694,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19526745",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514814,
+      "name": "세인약국",
+      "address": "부산 금정구 부곡로 112",
+      "lat": 35.2258193,
+      "lng": 129.0919343,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514814",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1382440912,
+      "name": "세종약국",
+      "address": "부산 수영구 광남로 151 1층",
+      "lat": 35.1549284,
+      "lng": 129.1178085,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1382440912",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525731,
+      "name": "세화당약국",
+      "address": "부산 금정구 중앙대로 1961 보람요양병원",
+      "lat": 35.2593431,
+      "lng": 129.0911046,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525731",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 31248762,
+      "name": "센텀드림약국",
+      "address": "부산 해운대구 센텀2로 25 105호",
+      "lat": 35.1669642,
+      "lng": 129.1328289,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/31248762",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1791823051,
+      "name": "센텀파크약국",
+      "address": "부산 해운대구 센텀중앙로 145 7상가 205호 스타벅스 위",
+      "lat": 35.1790005,
+      "lng": 129.122251,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1791823051",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1019948008,
+      "name": "센트럴약국",
+      "address": "부산 해운대구 좌동순환로 505 102호",
+      "lat": 35.1656942,
+      "lng": 129.1683664,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1019948008",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1999741391,
+      "name": "셀메드온누리약국 매일약국",
+      "address": "부산 연제구 연수로 89 연제이마트 2층",
+      "lat": 35.176118,
+      "lng": 129.0813506,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1999741391",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515145,
+      "name": "송강약국",
+      "address": "부산 연제구 월드컵대로 197",
+      "lat": 35.1878967,
+      "lng": 129.0750691,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515145",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 20115930,
+      "name": "수민약국",
+      "address": "부산 서구 대신공원로 29-1",
+      "lat": 35.1205808,
+      "lng": 129.0166589,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/20115930",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515430,
+      "name": "수민약국",
+      "address": "부산 연제구 해맞이로 109 1층 수민약국",
+      "lat": 35.1839043,
+      "lng": 129.069775,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515430",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2074280550,
+      "name": "수약국",
+      "address": "부산 남구 유엔평화로3번길 5 고려치과 옆 수약국",
+      "lat": 35.1346622,
+      "lng": 129.0924797,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2074280550",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19534869,
+      "name": "수약국",
+      "address": "부산 강서구 명지오션시티4로 64",
+      "lat": 35.0832832,
+      "lng": 128.9033287,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19534869",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1406023886,
+      "name": "수정온누리약국",
+      "address": "부산 동구 고관로 121",
+      "lat": 35.12943,
+      "lng": 129.0469944,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1406023886",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 829400629,
+      "name": "스마트약국",
+      "address": "부산 부산진구 중앙대로 777 1층 스마트약국",
+      "lat": 35.1617932,
+      "lng": 129.0619844,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/829400629",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1392875121,
+      "name": "스타시티약국",
+      "address": "부산 강서구 명지국제6로 168 4층 4105호 스타시티약국",
+      "lat": 35.092862,
+      "lng": 128.9175362,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1392875121",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": null,
+      "dongbaekMatchBy": "addr",
+      "dongbaekSources": [
+        "BUSAN"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 37704696,
+      "name": "스타약국",
+      "address": "부산 동래구 충렬대로 160 창림빌딩 1층",
+      "lat": 35.2044266,
+      "lng": 129.0773506,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/37704696",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1356342808,
+      "name": "스타약국",
+      "address": "부산 금정구 온천장로 146 지온타워 1층 스타약국",
+      "lat": 35.2234528,
+      "lng": 129.0856403,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1356342808",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1805788296,
+      "name": "슬기로운약국",
+      "address": "부산 부산진구 중앙대로 664 이랜드 PEER 서면 101호",
+      "lat": 35.1520854,
+      "lng": 129.0597233,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1805788296",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525798,
+      "name": "시민약국",
+      "address": "부산 남구 동명로 135-1 시민약국",
+      "lat": 35.1197621,
+      "lng": 129.1117943,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525798",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1947726987,
+      "name": "시장약국",
+      "address": "부산 사하구 낙동대로 207",
+      "lat": 35.1002351,
+      "lng": 128.9941153,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1947726987",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515196,
+      "name": "시장약국",
+      "address": "부산광역시 북구 효열로 221 금곡제일상가 201호",
+      "lat": 35.2639169,
+      "lng": 129.0193165,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515196",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 16467220,
+      "name": "신나는부부한약국",
+      "address": "부산 동래구 아시아드대로181번가길 94",
+      "lat": 35.2052739,
+      "lng": 129.0647831,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/16467220",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19534778,
+      "name": "신동아약국",
+      "address": "부산 서구 동대로 14",
+      "lat": 35.1193,
+      "lng": 129.0175139,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19534778",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 19527571,
+      "name": "신동아약국",
+      "address": "부산 사하구 제석로 56",
+      "lat": 35.1055634,
+      "lng": 128.974728,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19527571",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2011429868,
+      "name": "신성건강약국",
+      "address": "부산 연제구 아시아드대로 38 1층 103호",
+      "lat": 35.1881365,
+      "lng": 129.0687513,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2011429868",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13251966,
+      "name": "신세계약국",
+      "address": "부산 연제구 월드컵대로 125 더웰타워",
+      "lat": 35.1854009,
+      "lng": 129.0818165,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13251966",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514988,
+      "name": "신세화약국",
+      "address": "부산 사하구 사하로 193 1층 신세화약국",
+      "lat": 35.0990406,
+      "lng": 128.9934287,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514988",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13250226,
+      "name": "신우약국",
+      "address": "부산 동구 중앙대로 169 2층",
+      "lat": 35.1129866,
+      "lng": 129.0382494,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13250226",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 20481163,
+      "name": "아이맘약국",
+      "address": "부산 해운대구 해운대로 794 7층 701호",
+      "lat": 35.168815,
+      "lng": 129.1757451,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/20481163",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1557935943,
+      "name": "안녕, 약국",
+      "address": "부산 해운대구 해운대로 415 . 1동 1층 101호(우동, 우동메디컬 센터)",
+      "lat": 35.1669324,
+      "lng": 129.1411025,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1557935943",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1720077669,
+      "name": "야이요약국",
+      "address": "부산 동구 조방로 14",
+      "lat": 35.1387523,
+      "lng": 129.0634901,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1720077669",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515089,
+      "name": "약산약국",
+      "address": "부산 부산진구 가야대로 781-1 1층 약산약국",
+      "lat": 35.15794,
+      "lng": 129.0571145,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515089",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 12835162,
+      "name": "양정24시약국",
+      "address": "부산 부산진구 중앙대로 930 서울빌딩 1층",
+      "lat": 35.1727515,
+      "lng": 129.0714335,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/12835162",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1045963497,
+      "name": "양정온누리약국",
+      "address": "부산 부산진구 중앙대로 900",
+      "lat": 35.1704901,
+      "lng": 129.0695619,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1045963497",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515100,
+      "name": "엄지약국",
+      "address": "부산 수영구 수영로 513",
+      "lat": 35.151724,
+      "lng": 129.1113229,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515100",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1901698015,
+      "name": "엔젤팜약국",
+      "address": "부산 기장군 정관읍 정관로 601 대신빌딩 1층",
+      "lat": 35.3205978,
+      "lng": 129.1795903,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1901698015",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525830,
+      "name": "연동시장약국",
+      "address": "부산 연제구 연동로 14",
+      "lat": 35.187929,
+      "lng": 129.0931559,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525830",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13252135,
+      "name": "연산삼보약국",
+      "address": "부산 연제구 연수로 148 1층 약국",
+      "lat": 35.1744542,
+      "lng": 129.0868833,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13252135",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525796,
+      "name": "연산약국",
+      "address": "부산 연제구 반송로 21 화성빌딩",
+      "lat": 35.1874261,
+      "lng": 129.0831121,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525796",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19520475,
+      "name": "연산중앙약국",
+      "address": "부산 연제구 과정로 274",
+      "lat": 35.1880906,
+      "lng": 129.0974829,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19520475",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13250190,
+      "name": "영신약국",
+      "address": "부산 영도구 태종로 129",
+      "lat": 35.0915424,
+      "lng": 129.0438271,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13250190",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13176601,
+      "name": "영주약국",
+      "address": "부산 중구 대영로 219",
+      "lat": 35.1123119,
+      "lng": 129.0348132,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13176601",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 35169246,
+      "name": "영풍메디칼약국",
+      "address": "부산 해운대구 좌동순환로 506 영풍리젠시",
+      "lat": 35.1661585,
+      "lng": 129.1687196,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/35169246",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 37953166,
+      "name": "예가약국",
+      "address": "부산 동래구 사직로 80 222동 3층 305호",
+      "lat": 35.1967655,
+      "lng": 129.057512,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/37953166",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515062,
+      "name": "온정약국",
+      "address": "부산 부산진구 동평로 420",
+      "lat": 35.1730167,
+      "lng": 129.0705658,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515062",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1695110245,
+      "name": "옵티마 온천약국",
+      "address": "부산광역시 해운대구 중동1로 39",
+      "lat": 35.1622945,
+      "lng": 129.1635107,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1695110245",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1808445720,
+      "name": "옵티마웰니스뮤지엄남포약국",
+      "address": "부산 중구 광복로 70 지하1층, 1층, 2층",
+      "lat": 35.098694,
+      "lng": 129.0324975,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1808445720",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 37949197,
+      "name": "옵티마현대약국",
+      "address": "부산 남구 용호로 90",
+      "lat": 35.1242138,
+      "lng": 129.1123728,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/37949197",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13200094,
+      "name": "우리들약국",
+      "address": "부산 사상구 대동로 155",
+      "lat": 35.14145,
+      "lng": 128.98352,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13200094",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19513794,
+      "name": "우리아이약국",
+      "address": "부산 사하구 다대로 271 우리아이약국",
+      "lat": 35.0780886,
+      "lng": 128.9775627,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19513794",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514993,
+      "name": "우리약국",
+      "address": "부산 동구 중앙대로286번길 3",
+      "lat": 35.1219831,
+      "lng": 129.0440182,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514993",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1166122053,
+      "name": "우리약국",
+      "address": "부산 중구 중구로 113",
+      "lat": 35.1065458,
+      "lng": 129.0319871,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1166122053",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1081375709,
+      "name": "우리약국",
+      "address": "부산 해운대구 중동1로 26",
+      "lat": 35.1630404,
+      "lng": 129.1620956,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1081375709",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19527224,
+      "name": "우리약국",
+      "address": "부산 금정구 공단로 5",
+      "lat": 35.2160266,
+      "lng": 129.1097166,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19527224",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19531236,
+      "name": "우리온누리약국 공공심야약국",
+      "address": "부산 기장군 정관읍 정관중앙로 56 프라임빌딩",
+      "lat": 35.3218571,
+      "lng": 129.1795534,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19531236",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19528012,
+      "name": "운동장약국",
+      "address": "부산 서구 구덕로 332",
+      "lat": 35.1133712,
+      "lng": 129.0161996,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19528012",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514751,
+      "name": "웃는약국",
+      "address": "부산 북구 금곡대로 270 화명동대림타운",
+      "lat": 35.2323203,
+      "lng": 129.0136716,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514751",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 32417481,
+      "name": "위드메디칼약국",
+      "address": "부산 연제구 중앙대로 1111 위드타워 1층 101호",
+      "lat": 35.1868549,
+      "lng": 129.081106,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/32417481",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19528110,
+      "name": "위드팜 백세약국",
+      "address": "부산 동구 고관로 151 위드팜백세약국",
+      "lat": 35.131094,
+      "lng": 129.0496427,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19528110",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 37728728,
+      "name": "유일약국",
+      "address": "부산 금정구 공단서로 22 탑마트 금사점 B동",
+      "lat": 35.2168625,
+      "lng": 129.1105794,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/37728728",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1123549246,
+      "name": "은온누리약국",
+      "address": "부산 동구 대영로 261",
+      "lat": 35.1117965,
+      "lng": 129.039285,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1123549246",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1633968506,
+      "name": "은하약국",
+      "address": "부산 사하구 낙동대로 216",
+      "lat": 35.100426,
+      "lng": 128.9931786,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1633968506",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515165,
+      "name": "은하약국",
+      "address": "부산 동래구 명안로85번길 48",
+      "lat": 35.2046231,
+      "lng": 129.1019525,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515165",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 32022509,
+      "name": "이레약국",
+      "address": "부산 해운대구 재반로 116",
+      "lat": 35.1887067,
+      "lng": 129.1267354,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/32022509",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2099491741,
+      "name": "이로운약국",
+      "address": "부산 남구 문현금융로 40 1층 A136호",
+      "lat": 35.1472601,
+      "lng": 129.0656311,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2099491741",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1739430722,
+      "name": "이상약국",
+      "address": "부산 북구 화명대로 35",
+      "lat": 35.2350645,
+      "lng": 129.0120325,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1739430722",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2075472510,
+      "name": "이음약국",
+      "address": "부산 북구 금곡대로 126 201호",
+      "lat": 35.2201116,
+      "lng": 129.0081515,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2075472510",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 31961564,
+      "name": "이화메디컬약국",
+      "address": "부산 수영구 수영로 710-1 프라임메디컬 빌딩 1층",
+      "lat": 35.1677684,
+      "lng": 129.1171647,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/31961564",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1158835578,
+      "name": "이화약국",
+      "address": "부산 동래구 사직북로 6",
+      "lat": 35.196533,
+      "lng": 129.0608967,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1158835578",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19526526,
+      "name": "이화약국",
+      "address": "부산 사하구 다대낙조1길 19",
+      "lat": 35.0500175,
+      "lng": 128.9658381,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19526526",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1148047181,
+      "name": "일광역 프라자약국",
+      "address": "부산 기장군 일광읍 해송4로 17 1층 101호",
+      "lat": 35.2668145,
+      "lng": 129.2313717,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1148047181",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 16447026,
+      "name": "임약국",
+      "address": "부산 부산진구 동평로 370 1층 임약국",
+      "lat": 35.1745723,
+      "lng": 129.0656307,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/16447026",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19530116,
+      "name": "자유약국",
+      "address": "부산 남구 유엔로 10 뉴서울아파트상가 1층",
+      "lat": 35.125217,
+      "lng": 129.07962,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19530116",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525729,
+      "name": "자인약국",
+      "address": "부산 해운대구 아랫반송로21번길 48",
+      "lat": 35.2265561,
+      "lng": 129.1485923,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525729",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514829,
+      "name": "장산약국",
+      "address": "부산 해운대구 좌동순환로 174 거성빌딩",
+      "lat": 35.1777045,
+      "lng": 129.1750727,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514829",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19529979,
+      "name": "장약국",
+      "address": "부산 사하구 다대로 325",
+      "lat": 35.0732098,
+      "lng": 128.9766063,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19529979",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2051340139,
+      "name": "장원온누리약국",
+      "address": "부산 부산진구 연수로 22-1 1층 102호",
+      "lat": 35.173773,
+      "lng": 129.0738128,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2051340139",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19534324,
+      "name": "전포롯테온누리약국",
+      "address": "부산 부산진구 전포대로275번길 79",
+      "lat": 35.1634745,
+      "lng": 129.0644065,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19534324",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19528141,
+      "name": "정다운약국",
+      "address": "부산 동구 고관로 128",
+      "lat": 35.1297269,
+      "lng": 129.047534,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19528141",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514859,
+      "name": "정다운약국",
+      "address": "부산 금정구 부곡로 118",
+      "lat": 35.2263735,
+      "lng": 129.0919789,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514859",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1826967997,
+      "name": "정다운온누리약국",
+      "address": "부산 해운대구 재반로 86 1층",
+      "lat": 35.1863265,
+      "lng": 129.1256462,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1826967997",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1588597681,
+      "name": "정민약국",
+      "address": "부산 동래구 충렬대로350번길 10",
+      "lat": 35.1972155,
+      "lng": 129.0969582,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1588597681",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525718,
+      "name": "정원온누리약국",
+      "address": "부산 부산진구 중앙대로 700",
+      "lat": 35.1552995,
+      "lng": 129.0595438,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525718",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 35169405,
+      "name": "제니스약국",
+      "address": "부산 해운대구 마린시티2로 33 두산위브더제니스 104동 162호",
+      "lat": 35.1565887,
+      "lng": 129.1440375,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/35169405",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1261001272,
+      "name": "제일약국",
+      "address": "부산 부산진구 가야대로 783",
+      "lat": 35.1578918,
+      "lng": 129.0571979,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1261001272",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1728833867,
+      "name": "제일약국",
+      "address": "부산 기장군 정관읍 정관로 560 마치빌딩 111호",
+      "lat": 35.321356,
+      "lng": 129.1750986,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1728833867",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1111634418,
+      "name": "조아약국",
+      "address": "부산 동구 중앙대로 284 1층 101호",
+      "lat": 35.1218023,
+      "lng": 129.0436109,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1111634418",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13200093,
+      "name": "조은약국",
+      "address": "부산 수영구 수영로 491 남천동 S-OIL주유소",
+      "lat": 35.1498041,
+      "lng": 129.1106435,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13200093",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515114,
+      "name": "조은우리약국",
+      "address": "부산 사상구 사상로 237",
+      "lat": 35.166276,
+      "lng": 128.9824396,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515114",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1474759474,
+      "name": "주민약국",
+      "address": "부산 연제구 금련로 3 1층",
+      "lat": 35.1732069,
+      "lng": 129.0959144,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1474759474",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1633504464,
+      "name": "주안약국",
+      "address": "부산 서구 남부민로 15",
+      "lat": 35.0842746,
+      "lng": 129.0240396,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1633504464",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2058149815,
+      "name": "진진약국",
+      "address": "부산 강서구 공항진입로 108 국내선 2층",
+      "lat": 35.172077,
+      "lng": 128.9474776,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2058149815",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": null,
+      "dongbaekMatchBy": "addr",
+      "dongbaekSources": [
+        "BUSAN"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 19525814,
+      "name": "참사랑약국",
+      "address": "부산 부산진구 동평로 358",
+      "lat": 35.1746249,
+      "lng": 129.064295,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525814",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525837,
+      "name": "참약국",
+      "address": "부산 금정구 중앙대로1719번길 16 마리이야기",
+      "lat": 35.237933,
+      "lng": 129.0913336,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525837",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19522940,
+      "name": "참조은약국",
+      "address": "부산 서구 감천로 261 삼성비치타운",
+      "lat": 35.0814626,
+      "lng": 129.0163205,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19522940",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13250302,
+      "name": "참좋은약국",
+      "address": "부산 동구 고관로 29",
+      "lat": 35.1220873,
+      "lng": 129.0424663,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13250302",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1661949812,
+      "name": "참진약국",
+      "address": "부산 부산진구 범일로 146-1",
+      "lat": 35.1431303,
+      "lng": 129.0595481,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1661949812",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525675,
+      "name": "창공약국",
+      "address": "부산 동구 진시장로 19",
+      "lat": 35.1372444,
+      "lng": 129.0586381,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525675",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1187604854,
+      "name": "청년약국",
+      "address": "부산 사하구 낙동대로550번길 13 1층",
+      "lat": 35.1132581,
+      "lng": 128.9648055,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1187604854",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 76182890,
+      "name": "청담약국",
+      "address": "부산 동래구 온천장로 1 101호",
+      "lat": 35.2124243,
+      "lng": 129.0785749,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/76182890",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1298898919,
+      "name": "청춘약국",
+      "address": "부산 중구 동영로 8 1,2,3층",
+      "lat": 35.1078275,
+      "lng": 129.0333837,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1298898919",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13176630,
+      "name": "친절한약국",
+      "address": "부산 해운대구 아랫반송로 25-1 1층",
+      "lat": 35.2249677,
+      "lng": 129.1488967,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13176630",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1529381087,
+      "name": "코끼리약국",
+      "address": "부산 부산진구 가야대로 456",
+      "lat": 35.1529727,
+      "lng": 129.0219252,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1529381087",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13250687,
+      "name": "코끼리약국",
+      "address": "부산 동래구 안연로109번길 24",
+      "lat": 35.1971273,
+      "lng": 129.0966055,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13250687",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 37927496,
+      "name": "코끼리약국",
+      "address": "부산 강서구 명지국제8로 240",
+      "lat": 35.0977102,
+      "lng": 128.9189138,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/37927496",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19534985,
+      "name": "퀸덤약국",
+      "address": "부산 강서구 명지오션시티10로 16 링컨타운 상가동 238호",
+      "lat": 35.0855017,
+      "lng": 128.8986939,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19534985",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": null,
+      "dongbaekMatchBy": "addr",
+      "dongbaekSources": [
+        "BUSAN"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 35169132,
+      "name": "큰나무약국",
+      "address": "부산 동래구 금강공원로 2 온천장 SK HUB olive",
+      "lat": 35.2183849,
+      "lng": 129.0840571,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/35169132",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19867269,
+      "name": "큰소망약국",
+      "address": "부산 수영구 연수로 402 1층 큰소망약국",
+      "lat": 35.1686022,
+      "lng": 129.1130962,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19867269",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 35170100,
+      "name": "튼튼약국",
+      "address": "부산 기장군 정관읍 정관로 615",
+      "lat": 35.3200865,
+      "lng": 129.1809812,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/35170100",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1085723480,
+      "name": "퍼스트온누리약국",
+      "address": "부산 강서구 명지국제2로 41 1층 152호",
+      "lat": 35.0967243,
+      "lng": 128.9069928,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1085723480",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": null,
+      "dongbaekMatchBy": "addr",
+      "dongbaekSources": [
+        "BUSAN"
+      ],
+      "crossVerified": false
+    },
+    {
+      "placeId": 35560075,
+      "name": "푸른신호약국",
+      "address": "부산 강서구 신호산단2로 41 102호",
+      "lat": 35.0852697,
+      "lng": 128.877685,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/35560075",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 37522964,
+      "name": "푸른약국",
+      "address": "부산 수영구 수영로611번길 5",
+      "lat": 35.160393,
+      "lng": 129.1132819,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/37522964",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 21204454,
+      "name": "푸른지산약국",
+      "address": "부산 중구 샘길 1",
+      "lat": 35.1069812,
+      "lng": 129.0328876,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/21204454",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19530936,
+      "name": "하나로약국",
+      "address": "부산 북구 금곡대로 469",
+      "lat": 35.2500205,
+      "lng": 129.0113645,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19530936",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19534609,
+      "name": "하나약국",
+      "address": "부산 동래구 안락로 12 안락동 메디컬센터",
+      "lat": 35.2008271,
+      "lng": 129.0984315,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19534609",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1784923399,
+      "name": "하나약국",
+      "address": "부산 사하구 감천로 46",
+      "lat": 35.0907211,
+      "lng": 128.997344,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1784923399",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1308620631,
+      "name": "하나약국",
+      "address": "부산 기장군 장안읍 월내2길 3",
+      "lat": 35.3277754,
+      "lng": 129.2787827,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1308620631",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19520399,
+      "name": "하늘약국",
+      "address": "부산 부산진구 범일로 131",
+      "lat": 35.1418236,
+      "lng": 129.0591051,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19520399",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1518696538,
+      "name": "한마음약국",
+      "address": "부산 동래구 충렬대로 92 1층 한마음약국",
+      "lat": 35.2071671,
+      "lng": 129.0709404,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1518696538",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19524095,
+      "name": "한솔약국",
+      "address": "부산 해운대구 좌동순환로 173 1층 104호 한솔약국",
+      "lat": 35.178171,
+      "lng": 129.1751792,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19524095",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2078057043,
+      "name": "해운대베리뉴약국",
+      "address": "부산 해운대구 구남로 34-1 1,2,3층",
+      "lat": 35.1610794,
+      "lng": 129.1607442,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2078057043",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1472467280,
+      "name": "해운메디약국",
+      "address": "부산 해운대구 해운대로 602",
+      "lat": 35.162224,
+      "lng": 129.1572157,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1472467280",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1652348779,
+      "name": "해인약국",
+      "address": "부산 금정구 수림로 55 1층",
+      "lat": 35.2398103,
+      "lng": 129.0863486,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1652348779",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13252308,
+      "name": "해인온누리약국",
+      "address": "부산 강서구 녹산산단321로 24-4",
+      "lat": 35.0907273,
+      "lng": 128.8530909,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/13252308",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2027073266,
+      "name": "햇빛약국",
+      "address": "부산 연제구 월드컵대로 142-1 1층 101호",
+      "lat": 35.1866122,
+      "lng": 129.080821,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/2027073266",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1572853709,
+      "name": "햇살약국",
+      "address": "부산 동래구 석사로 5",
+      "lat": 35.1980102,
+      "lng": 129.060703,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1572853709",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 35169966,
+      "name": "행복약국",
+      "address": "부산 남구 석포로 34 국제아파트 상가 104호",
+      "lat": 35.1225899,
+      "lng": 129.0856,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/35169966",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1953541370,
+      "name": "행복온누리약국",
+      "address": "부산 해운대구 반여로41번길 54 104호 (반 동)",
+      "lat": 35.1974959,
+      "lng": 129.1189563,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1953541370",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1258357007,
+      "name": "행복한약국",
+      "address": "부산 해운대구 해운대로 313 1층",
+      "lat": 35.1730196,
+      "lng": 129.1325826,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1258357007",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1083792279,
+      "name": "행운약국",
+      "address": "부산 사상구 백양대로 900 1층",
+      "lat": 35.1866521,
+      "lng": 128.9910628,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1083792279",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19514794,
+      "name": "현대약국",
+      "address": "부산 사하구 다대로 305 장림현대아파트",
+      "lat": 35.075321,
+      "lng": 128.9770698,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19514794",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515142,
+      "name": "현대약국",
+      "address": "부산 동래구 금강공원로 3",
+      "lat": 35.2181799,
+      "lng": 129.0838707,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515142",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 539333489,
+      "name": "혜민약국",
+      "address": "부산 동구 초량상로 91-1",
+      "lat": 35.1198654,
+      "lng": 129.0387714,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/539333489",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19525767,
+      "name": "화목약국",
+      "address": "부산 동래구 충렬사로 45 창신당 빌딩",
+      "lat": 35.2031178,
+      "lng": 129.098125,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19525767",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 21903014,
+      "name": "화인약국",
+      "address": "부산 북구 금곡대로285번길 5 레지던스라움 1층",
+      "lat": 35.2338087,
+      "lng": 129.0131586,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/21903014",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1608720985,
+      "name": "휴베이스 공감약국",
+      "address": "부산 해운대구 좌동순환로 6 엘타워 지상 1층 공감약국",
+      "lat": 35.1671654,
+      "lng": 129.16806,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/1608720985",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19527214,
+      "name": "휴베이스 오렌지약국",
+      "address": "부산 북구 효열로 75",
+      "lat": 35.2528334,
+      "lng": 129.0136972,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/19527214",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 78062406,
+      "name": "희망약국",
+      "address": "부산 강서구 명지국제8로 254",
+      "lat": 35.0977764,
+      "lng": 128.9206549,
+      "category": "의료",
+      "naverUrl": "https://map.naver.com/p/entry/place/78062406",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "BUSAN",
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    }
+  ]
+}
