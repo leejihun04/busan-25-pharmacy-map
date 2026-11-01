@@ -37,7 +37,7 @@ body{overscroll-behavior:none}
 body.sheet-expanded #locate, body.sheet-expanded .info-btn{opacity:0;pointer-events:none}
 
 /* 하단 시트 */
-.sheet{position:absolute;left:0;right:0;bottom:0;z-index:610;height:var(--sheet-h);
+.sheet{position:absolute;left:0;right:0;bottom:0;z-index:610;height:var(--sheet-h);overflow:hidden;
   background:var(--card);border-radius:18px 18px 0 0;box-shadow:0 -4px 20px rgba(0,0,0,.12);
   display:flex;flex-direction:column;padding-bottom:var(--safe-b);transition:height .22s ease}
 .sheet.expanded{height:84vh}
@@ -46,11 +46,11 @@ body.sheet-expanded #locate, body.sheet-expanded .info-btn{opacity:0;pointer-eve
 .sheet-head{display:flex;align-items:center;gap:8px;padding:8px 16px 10px;border-bottom:1px solid var(--line)}
 .sheet-head strong{font-size:16px}
 .sheet-head .count{color:var(--muted);font-size:13px}
-.list{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:6px 10px 10px}
+.list{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;touch-action:pan-y;padding:6px 10px 10px}
 
 /* 약국 카드 */
 .card{display:block;width:100%;text-align:left;background:#fff;border:1px solid var(--line);
-  border-radius:14px;padding:13px 14px;margin:8px 2px;cursor:pointer}
+  border-radius:14px;padding:13px 14px;margin:8px 0;cursor:pointer;overflow:hidden}
 .card:active{background:#fafafa}
 .card .row1{display:flex;align-items:center;gap:8px}
 .card .name{font-weight:700;font-size:15.5px}
