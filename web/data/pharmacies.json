@@ -1,32 +1,34 @@
 {
-  "generatedAt": "2026-11-02 10:32:01",
+  "generatedAt": "2026-11-02 13:39:57",
   "facesignSyncYmdt": "2026-11-01 15:30:00",
   "dongbaekEnabled": true,
-  "dongbaekCollectedAt": "2026-11-01 21:24:03",
+  "dongbaekCollectedAt": "2026-11-02 13:38:37",
   "dongbaekSources": {
     "komsco": {
       "enabled": true,
-      "count": 222065,
-      "coordsCount": 156423
+      "reason": null,
+      "count": 222061,
+      "coordsCount": 156424
     },
     "busan": {
-      "enabled": true,
-      "count": 163422,
-      "coordsCount": 0
+      "enabled": false,
+      "reason": "no_csv",
+      "count": null,
+      "coordsCount": null
     }
   },
   "counts": {
     "pharmacy": 471,
     "both25": 471,
-    "crossVerified": 457,
+    "crossVerified": 455,
     "withDrugInfo": 21,
     "matchBy": {
       "coord": 461,
       "addr": 10
     },
     "sourceHit": {
-      "KOMSCO": 461,
-      "BUSAN": 459
+      "KOMSCO": 471,
+      "BUSAN": 0
     }
   },
   "disclaimer": "비공식 서비스입니다. 적립 중복·적립률·가맹 여부는 매장/정책에 따라 다를 수 있으니 결제 전 매장에 직접 확인하세요.",
@@ -45,7 +47,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -64,7 +65,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -83,7 +83,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -99,10 +98,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/2098110964",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -120,7 +119,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -139,7 +137,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -158,7 +155,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -177,7 +173,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -196,7 +191,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -215,7 +209,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -234,7 +227,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -253,7 +245,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -272,7 +263,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -291,7 +281,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -310,7 +299,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -329,7 +317,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -348,7 +335,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -367,7 +353,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -386,7 +371,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -405,7 +389,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -428,7 +411,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -447,7 +429,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -466,7 +447,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -485,7 +465,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -501,10 +480,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/11814770",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -522,7 +501,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -541,7 +519,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -560,7 +537,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -579,7 +555,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -598,7 +573,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -617,7 +591,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -636,7 +609,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -678,7 +650,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -697,7 +668,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -716,7 +686,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -735,7 +704,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -754,7 +722,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -773,7 +740,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -792,7 +758,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -811,7 +776,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -830,7 +794,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -849,7 +812,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -868,7 +830,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -887,7 +848,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -906,7 +866,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -925,7 +884,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -944,7 +902,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -967,7 +924,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -986,7 +942,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1005,7 +960,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1024,7 +978,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1043,7 +996,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1062,7 +1014,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1081,7 +1032,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1100,7 +1050,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1119,7 +1068,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1138,7 +1086,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1157,7 +1104,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1176,7 +1122,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1195,7 +1140,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1214,7 +1158,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1233,7 +1176,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1252,7 +1194,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1271,7 +1212,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1290,7 +1230,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1309,7 +1248,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1328,7 +1266,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1347,7 +1284,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1366,7 +1302,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1385,7 +1320,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1404,7 +1338,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1423,7 +1356,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1446,7 +1378,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1465,7 +1396,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1484,7 +1414,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1503,7 +1432,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1522,7 +1450,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1541,7 +1468,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1560,7 +1486,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1579,7 +1504,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1598,7 +1522,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1617,7 +1540,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1636,7 +1558,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1655,7 +1576,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1674,7 +1594,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1693,7 +1612,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1712,7 +1630,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1731,7 +1648,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1750,7 +1666,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1769,7 +1684,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1788,7 +1702,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1807,7 +1720,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1830,7 +1742,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1849,7 +1760,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1868,7 +1778,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1887,7 +1796,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1906,7 +1814,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1925,7 +1832,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1944,7 +1850,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1963,7 +1868,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -1982,7 +1886,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2001,7 +1904,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2020,7 +1922,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2039,7 +1940,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2064,7 +1964,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2083,7 +1982,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2102,7 +2000,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2121,7 +2018,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2140,7 +2036,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2159,7 +2054,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2178,7 +2072,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2197,7 +2090,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2216,7 +2108,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2235,7 +2126,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2254,7 +2144,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2277,7 +2166,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2296,7 +2184,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2315,7 +2202,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2334,7 +2220,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2353,7 +2238,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2372,7 +2256,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2391,7 +2274,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2410,7 +2292,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2429,7 +2310,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2448,7 +2328,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2467,7 +2346,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2486,7 +2364,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2505,7 +2382,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2524,7 +2400,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2543,7 +2418,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2562,7 +2436,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2581,7 +2454,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2600,10 +2472,9 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
-      "crossVerified": true
+      "crossVerified": false
     },
     {
       "placeId": 13250143,
@@ -2619,7 +2490,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2638,7 +2508,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2657,7 +2526,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2676,7 +2544,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2695,7 +2562,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2714,7 +2580,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2733,7 +2598,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2752,7 +2616,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2771,7 +2634,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2790,7 +2652,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2809,7 +2670,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2828,7 +2688,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2847,7 +2706,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2866,7 +2724,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2885,7 +2742,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2904,7 +2760,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2923,7 +2778,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2939,10 +2793,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1478823013",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -2960,7 +2814,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -2979,7 +2832,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3016,7 +2868,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3035,7 +2886,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3054,7 +2904,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3073,7 +2922,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3092,7 +2940,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3111,7 +2958,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3130,7 +2976,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3149,7 +2994,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3168,7 +3012,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3187,7 +3030,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3206,7 +3048,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3225,7 +3066,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3249,7 +3089,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3268,7 +3107,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3287,7 +3125,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3306,7 +3143,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3325,7 +3161,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3344,7 +3179,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3363,7 +3197,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3382,7 +3215,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3401,7 +3233,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3420,7 +3251,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3439,7 +3269,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3458,7 +3287,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3477,7 +3305,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3500,7 +3327,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3519,7 +3345,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3556,7 +3381,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3575,7 +3399,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3594,7 +3417,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3613,7 +3435,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3632,7 +3453,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3651,7 +3471,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3670,7 +3489,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3707,7 +3525,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3726,7 +3543,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3745,7 +3561,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3764,7 +3579,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3783,7 +3597,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3799,10 +3612,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1152534018",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -3820,7 +3633,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3839,7 +3651,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3858,7 +3669,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3877,7 +3687,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3896,7 +3705,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3915,7 +3723,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3934,7 +3741,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3953,7 +3759,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3972,7 +3777,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -3991,7 +3795,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4010,7 +3813,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4029,7 +3831,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4048,7 +3849,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4067,7 +3867,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4086,7 +3885,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4105,7 +3903,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4124,7 +3921,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4143,7 +3939,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4162,7 +3957,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4181,7 +3975,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4200,7 +3993,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4219,7 +4011,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4238,7 +4029,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4257,7 +4047,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4276,7 +4065,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4295,7 +4083,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4319,7 +4106,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4338,7 +4124,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4375,7 +4160,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4394,7 +4178,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4413,7 +4196,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4432,7 +4214,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4451,7 +4232,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4470,7 +4250,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4489,7 +4268,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4508,7 +4286,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4527,7 +4304,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4546,7 +4322,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4565,7 +4340,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4584,7 +4358,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4603,7 +4376,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4622,7 +4394,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4638,10 +4409,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1392875121",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -4659,7 +4430,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4678,7 +4448,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4697,7 +4466,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4716,7 +4484,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4735,7 +4502,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4754,7 +4520,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4773,7 +4538,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4792,7 +4556,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4811,7 +4574,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4866,7 +4628,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4890,7 +4651,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4909,7 +4669,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4928,7 +4687,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4947,7 +4705,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4966,7 +4723,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -4985,7 +4741,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5004,7 +4759,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5023,7 +4777,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5042,7 +4795,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5061,7 +4813,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5080,7 +4831,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5099,7 +4849,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5118,7 +4867,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5137,7 +4885,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5156,7 +4903,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5180,7 +4926,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5199,7 +4944,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5218,7 +4962,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5237,7 +4980,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5256,7 +4998,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5275,7 +5016,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5294,7 +5034,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5313,7 +5052,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5332,7 +5070,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5351,7 +5088,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5370,7 +5106,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5389,7 +5124,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5408,7 +5142,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5427,7 +5160,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5446,7 +5178,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5465,7 +5196,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5484,7 +5214,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5503,7 +5232,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5522,7 +5250,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5541,7 +5268,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5560,7 +5286,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5586,7 +5311,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5605,7 +5329,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5624,7 +5347,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5643,7 +5365,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5662,7 +5383,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5681,7 +5401,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5700,7 +5419,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5716,10 +5434,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/31872092",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -5737,7 +5455,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5756,7 +5473,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5779,7 +5495,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5798,7 +5513,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5817,7 +5531,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5836,7 +5549,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5873,7 +5585,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5892,7 +5603,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5911,7 +5621,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5930,7 +5639,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5949,7 +5657,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5968,7 +5675,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -5987,7 +5693,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6006,7 +5711,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6030,7 +5734,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6049,7 +5752,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6068,7 +5770,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6087,7 +5788,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6106,7 +5806,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6125,7 +5824,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6144,7 +5842,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6163,7 +5860,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6182,7 +5878,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6201,7 +5896,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6220,7 +5914,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6239,7 +5932,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6258,7 +5950,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6277,7 +5968,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6332,7 +6022,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6351,7 +6040,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6370,7 +6058,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6389,7 +6076,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6408,7 +6094,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6427,7 +6112,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6446,7 +6130,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6465,7 +6148,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6484,7 +6166,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6503,7 +6184,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6522,7 +6202,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6541,7 +6220,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6560,7 +6238,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6579,7 +6256,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6598,7 +6274,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6621,7 +6296,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6640,7 +6314,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6659,7 +6332,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6678,7 +6350,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6697,7 +6368,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6716,7 +6386,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6735,7 +6404,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6754,7 +6422,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6773,7 +6440,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6792,7 +6458,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6815,7 +6480,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6834,7 +6498,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6853,7 +6516,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6872,7 +6534,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6891,7 +6552,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6910,7 +6570,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6929,7 +6588,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6948,7 +6606,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6967,7 +6624,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -6986,7 +6642,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7005,7 +6660,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7024,7 +6678,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7043,7 +6696,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7062,7 +6714,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7081,7 +6732,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7100,7 +6750,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7119,7 +6768,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7138,7 +6786,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7157,7 +6804,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7176,7 +6822,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7195,7 +6840,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7214,7 +6858,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7233,7 +6876,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7252,7 +6894,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7271,7 +6912,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7290,7 +6930,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7309,7 +6948,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7346,7 +6984,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7365,7 +7002,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7384,7 +7020,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7403,7 +7038,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7440,7 +7074,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7456,10 +7089,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/2058149815",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -7477,7 +7110,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7496,7 +7128,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7515,7 +7146,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7534,7 +7164,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7553,7 +7182,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7572,7 +7200,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7591,7 +7218,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7610,7 +7236,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7629,7 +7254,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7648,7 +7272,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7667,7 +7290,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7686,7 +7308,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7705,7 +7326,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7728,7 +7348,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7747,7 +7366,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7766,7 +7384,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7785,7 +7402,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7804,7 +7420,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7823,7 +7438,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7842,7 +7456,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7861,7 +7474,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7880,7 +7492,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7899,7 +7510,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7918,7 +7528,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7937,7 +7546,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7956,7 +7564,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7975,7 +7582,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -7994,7 +7600,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8010,10 +7615,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/19534985",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -8031,7 +7636,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8050,7 +7654,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8069,7 +7672,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8088,7 +7690,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8104,10 +7705,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/1085723480",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -8125,7 +7726,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8144,7 +7744,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8163,7 +7762,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8182,7 +7780,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8201,7 +7798,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8217,10 +7813,10 @@
       "naverUrl": "https://map.naver.com/p/entry/place/19520674",
       "facesign": true,
       "dongbaek": true,
-      "dongbaekStatus": null,
+      "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "addr",
       "dongbaekSources": [
-        "BUSAN"
+        "KOMSCO"
       ],
       "crossVerified": false
     },
@@ -8238,7 +7834,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8257,7 +7852,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8276,7 +7870,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8295,7 +7888,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8314,7 +7906,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8333,7 +7924,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8356,7 +7946,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8375,7 +7964,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8394,7 +7982,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8413,7 +8000,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8432,7 +8018,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8451,7 +8036,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8470,7 +8054,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8489,7 +8072,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8508,7 +8090,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8527,7 +8108,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8546,7 +8126,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8565,10 +8144,9 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
-      "crossVerified": true
+      "crossVerified": false
     },
     {
       "placeId": 36547116,
@@ -8584,7 +8162,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8603,7 +8180,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8622,7 +8198,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8646,7 +8221,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8665,7 +8239,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8684,7 +8257,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8703,7 +8275,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8722,7 +8293,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8741,7 +8311,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8760,7 +8329,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8779,7 +8347,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8798,7 +8365,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8817,7 +8383,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8836,7 +8401,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8855,7 +8419,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8874,7 +8437,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8893,7 +8455,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8912,7 +8473,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8931,7 +8491,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8950,7 +8509,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8969,7 +8527,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -8988,7 +8545,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -9007,7 +8563,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -9026,7 +8581,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true
@@ -9050,7 +8604,6 @@
       "dongbaekStatus": "계속사업자",
       "dongbaekMatchBy": "coord",
       "dongbaekSources": [
-        "BUSAN",
         "KOMSCO"
       ],
       "crossVerified": true

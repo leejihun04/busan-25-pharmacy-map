@@ -9,4 +9,4 @@ web/data/dongbaek.json
 web/data/dongbaek_komsco.json
 web/data/dongbaek_busan.json
 web/data/facesign.json
-web/data/drugs.json
+# drugs.json 은 이어받기(증분 수집) 기반이므로 레포에 커밋한다 (gitignore 제외)

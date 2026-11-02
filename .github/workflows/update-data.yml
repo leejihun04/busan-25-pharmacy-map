@@ -50,12 +50,14 @@ jobs:
           [ -f "$BUSAN_CSV_PATH" ] || unset BUSAN_CSV_PATH
           python collect_dongbaek.py || echo "::warning::동백전 수집 일부 실패(계속 진행)"
 
-      - name: 비만치료제 취급 수집 (네이버 플레이스)
+      - name: 비만치료제 취급 수집 (네이버 플레이스, 증분/이어받기)
         if: ${{ !inputs.skip_drugs }}
         working-directory: collector
         env:
-          DRUG_REQUEST_DELAY: '1.0'   # 429 회피를 위해 CI 에선 더 느리게
-        run: python collect_drugs.py || echo "::warning::비만약 수집 일부 실패(계속 진행)"
+          DRUG_REQUEST_DELAY: '0.3'
+          DRUG_CONCURRENCY: '4'
+        # 네이버 레이트리밋으로 오래 걸릴 수 있어 12분 상한. 이어받기라 다음 실행에서 계속.
+        run: timeout 720 python collect_drugs.py || echo "::warning::비만약 수집 시간상한/일부실패 — 기존값 유지하고 계속"
 
       - name: 교집합 매칭 → pharmacies.json
         working-directory: collector
@@ -92,21 +94,21 @@ jobs:
           print("품질 가드 통과")
           PY
 
-      - name: 배포 전 중간 산출물 정리 (대용량 제외)
+      - name: 배포 전 중간 산출물 정리 (대용량만 제외, drugs.json 은 유지)
         run: |
           rm -f web/data/dongbaek.json web/data/dongbaek_komsco.json \
-                web/data/dongbaek_busan.json web/data/facesign.json web/data/drugs.json
+                web/data/dongbaek_busan.json web/data/facesign.json
           echo "남은 데이터:"; ls -la web/data/
 
       - name: 변경사항 확인
         id: diff
         run: |
-          if git diff --quiet -- web/data/pharmacies.json; then
+          if git diff --quiet -- web/data/pharmacies.json web/data/drugs.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "변경 없음"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "pharmacies.json 변경됨"
+            echo "데이터 변경됨"
           fi
 
       - name: main 에 데이터 커밋
@@ -114,7 +116,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add web/data/pharmacies.json
+          git add web/data/pharmacies.json web/data/drugs.json
           git commit -m "chore(data): 자동 갱신 $(date -u +%Y-%m-%d)"
           git push origin HEAD:main
 

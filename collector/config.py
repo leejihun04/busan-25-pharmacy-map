@@ -47,6 +47,11 @@ GRID_STEP_PRIORITY = 0.005
 
 REQUEST_DELAY = 0.05  # 호출 간 지연(초) - 서버 예의
 
+# 병렬 수집 동시성(서버 예의 + 속도 균형). CI/로컬 모두 적용.
+FACESIGN_CONCURRENCY = int(os.environ.get("FACESIGN_CONCURRENCY", "8"))
+DRUG_CONCURRENCY = int(os.environ.get("DRUG_CONCURRENCY", "4"))      # 네이버 429 민감 → 낮게
+KOMSCO_CONCURRENCY = int(os.environ.get("KOMSCO_CONCURRENCY", "6"))
+
 # --- 동백전(지역사랑상품권) 공공데이터 ---
 # 두 소스를 모두 활용한다:
 #   KOMSCO : 한국조폐공사 "지역사랑상품권 가맹점"(국가중점, 위경도 포함) → 좌표 매칭(주)

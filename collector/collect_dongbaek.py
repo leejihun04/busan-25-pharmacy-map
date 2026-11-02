@@ -161,32 +161,51 @@ def _collect_komsco() -> dict:
     )
 
     merchants: list[dict] = []
-    page = 1
-    while True:
+
+    def fetch_one(page):
         try:
-            rows, _ = _fetch_page(
-                url, key, page, C.KOMSCO_PAGE_SIZE,
-                C.KOMSCO_PAGE_PARAM, C.KOMSCO_SIZE_PARAM, region_extra,
-            )
+            rows, _ = _fetch_page(url, key, page, C.KOMSCO_PAGE_SIZE,
+                                  C.KOMSCO_PAGE_PARAM, C.KOMSCO_SIZE_PARAM, region_extra)
+            return page, rows
         except Exception as e:
-            print(f"[{name}] page {page} 실패: {e}", file=sys.stderr)
-            if page == 1:
-                return {"enabled": False, "reason": "fetch_error", "error": str(e), "merchants": []}
+            return page, e
+
+    # 1페이지 먼저 받아 동작 확인
+    p1, rows1 = fetch_one(1)
+    if isinstance(rows1, Exception):
+        return {"enabled": False, "reason": "fetch_error", "error": str(rows1), "merchants": []}
+    if not rows1:
+        return {"enabled": True, "count": 0, "coordsCount": 0, "pharmacyCount": 0, "merchants": []}
+
+    from concurrent.futures import ThreadPoolExecutor
+    page_rows = {1: rows1}
+    next_page = 2
+    stop = False
+    # 빈 페이지가 나올 때까지 배치(동시성 크기)로 병렬 요청
+    while not stop:
+        batch = list(range(next_page, next_page + C.KOMSCO_CONCURRENCY))
+        with ThreadPoolExecutor(max_workers=C.KOMSCO_CONCURRENCY) as ex:
+            results = list(ex.map(fetch_one, batch))
+        for pg, rows in results:
+            if isinstance(rows, Exception):
+                continue
+            if not rows:
+                stop = True
+            else:
+                page_rows[pg] = rows
+                if len(rows) < C.KOMSCO_PAGE_SIZE:
+                    stop = True
+        next_page += C.KOMSCO_CONCURRENCY
+        print(f"[{name}] ~{next_page-1}페이지까지 수집(누적 페이지 {len(page_rows)})")
+        if next_page > 2000:  # 안전장치
             break
-        if not rows:
-            break
-        for rec in rows:
+
+    for pg in sorted(page_rows):
+        for rec in page_rows[pg]:
             m = _normalize(rec, name)
-            # 폐업자는 제외(가맹 유효성)
             if m["status"] and "폐업" in str(m["status"]):
                 continue
             merchants.append(m)
-        if page % 20 == 0 or page == 1:
-            print(f"[{name}] page {page}: 누적 {len(merchants)}")
-        if len(rows) < C.KOMSCO_PAGE_SIZE:
-            break
-        page += 1
-        time.sleep(C.REQUEST_DELAY)
 
     coord_n = sum(1 for m in merchants if m["lat"] and m["lng"])
     pharm_n = sum(1 for m in merchants if "약국" in (m.get("name") or ""))

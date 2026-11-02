@@ -25,7 +25,7 @@ import config as C
 
 PLACE_URL = "https://m.place.naver.com/{path}/{pid}/home"
 UA = C.USER_AGENT
-DRUG_REQUEST_DELAY = float(os.environ.get("DRUG_REQUEST_DELAY", "0.8"))  # 네이버 429 회피
+DRUG_REQUEST_DELAY = float(os.environ.get("DRUG_REQUEST_DELAY", "0.3"))  # 네이버 429 회피(병렬이라 소폭)
 
 # 탐지 대상 비만치료제(GLP-1 등). 표시 표준화를 위해 정식 표기로 매핑.
 DRUG_KEYWORDS = {
@@ -75,6 +75,7 @@ def fetch_drugs(pid, kind="약국", retries=4) -> tuple[list[str], bool]:
         for kw, canon in DRUG_KEYWORDS.items():
             if kw in hay and canon not in found:
                 found.append(canon)
+        time.sleep(DRUG_REQUEST_DELAY)  # 워커별 소폭 지연(429 완화)
         return found, True
     return [], False
 
@@ -93,27 +94,37 @@ def main() -> None:
 
     out: dict[str, dict] = dict(prev)
     now = time.strftime("%Y-%m-%d %H:%M:%S")
-    hit = len(prev)
-    done = 0
-    for i, p in enumerate(pharmacies, 1):
+
+    # 아직 확인 안 된 대상만 추림
+    todo = []
+    for p in pharmacies:
         pid = p.get("placeId")
         if pid is None:
             continue
-        key = str(pid)
-        if key in out:  # 이미 취급 표시 확인됨 → 건너뜀
+        if str(pid) in out:
             continue
+        todo.append(p)
+    print(f"  수집 대상 {len(todo)}곳 (동시성 {C.DRUG_CONCURRENCY})")
+
+    from concurrent.futures import ThreadPoolExecutor
+    import threading
+    lock = threading.Lock()
+    done = {"n": 0}
+
+    def work(p):
+        pid = p.get("placeId")
         drugs, ok = fetch_drugs(pid, p.get("kind", "약국"))
-        done += 1
-        if not ok:
-            continue  # 요청 실패(429 등)는 저장 안 함 → 다음 실행 때 재시도
-        # 확인 완료: 약 있으면 drugs 기록, 없으면 빈 목록으로 기록(재조회 방지)
-        out[key] = {"drugs": drugs, "checkedAt": now}
-        if drugs:
-            hit += 1
-        if done % 20 == 0:
-            print(f"  ...{i}/{len(pharmacies)} (취급표시 {hit}곳 / 확인 {len(out)}곳)")
-            _save(out_path, out, now)
-        time.sleep(DRUG_REQUEST_DELAY)
+        with lock:
+            done["n"] += 1
+            if ok:
+                out[str(pid)] = {"drugs": drugs, "checkedAt": now}
+            if done["n"] % 40 == 0:
+                withd = sum(1 for v in out.values() if v.get("drugs"))
+                print(f"  ...{done['n']}/{len(todo)} (취급표시 {withd}곳 / 확인 {len(out)}곳)")
+                _save(out_path, out, now)
+
+    with ThreadPoolExecutor(max_workers=C.DRUG_CONCURRENCY) as ex:
+        list(ex.map(work, todo))
 
     _save(out_path, out, now)
     withdrugs = sum(1 for v in out.values() if v.get("drugs"))

@@ -68,25 +68,30 @@ def collect() -> dict:
 
     seen: dict[int, dict] = {}
 
-    # 우선순위 구역을 더 촘촘히 먼저 수집
+    # 우선순위 구역을 더 촘촘히 + 전역. 모든 격자점을 모아 병렬 수집.
     regions: list[tuple[str, tuple, float]] = [
         (name, bbox, C.GRID_STEP_PRIORITY) for name, bbox in C.PRIORITY_BBOXES.items()
     ]
     regions.append(("부산전역", C.BUSAN_BBOX, C.GRID_STEP_DEFAULT))
 
+    all_pts = []
     for name, bbox, step in regions:
-        pts = list(_grid_points(bbox, step))
-        print(f"[{name}] 격자 {len(pts)}개 수집 중 (step={step})...")
-        for i, (lat, lng) in enumerate(pts, 1):
-            for s in fetch_nearby(lat, lng, C.MEDICAL_CATEGORY):
+        all_pts.extend(_grid_points(bbox, step))
+    print(f"격자점 {len(all_pts)}개 병렬 수집 (동시성 {C.FACESIGN_CONCURRENCY})...")
+
+    from concurrent.futures import ThreadPoolExecutor
+    done = 0
+    with ThreadPoolExecutor(max_workers=C.FACESIGN_CONCURRENCY) as ex:
+        futures = [ex.submit(fetch_nearby, lat, lng, C.MEDICAL_CATEGORY) for (lat, lng) in all_pts]
+        for fut in futures:
+            for s in fut.result():
                 pid = s.get("placeId")
                 if pid is not None:
-                    # distM 은 격자점 기준이라 저장 의미 없음 → 제거
                     s.pop("distM", None)
                     seen[pid] = s
-            time.sleep(C.REQUEST_DELAY)
-            if i % 100 == 0:
-                print(f"  ...{i}/{len(pts)} (누적 고유 매장 {len(seen)})")
+            done += 1
+            if done % 200 == 0:
+                print(f"  ...{done}/{len(all_pts)} (누적 고유 매장 {len(seen)})")
 
     stores = list(seen.values())
 
