@@ -23,7 +23,7 @@ import urllib.request
 
 import config as C
 
-PLACE_URL = "https://m.place.naver.com/pharmacy/{pid}/home"
+PLACE_URL = "https://m.place.naver.com/{path}/{pid}/home"
 UA = C.USER_AGENT
 DRUG_REQUEST_DELAY = float(os.environ.get("DRUG_REQUEST_DELAY", "0.8"))  # 네이버 429 회피
 
@@ -41,9 +41,11 @@ DRUG_KEYWORDS = {
 }
 
 
-def fetch_drugs(pid, retries=4) -> tuple[list[str], bool]:
-    """반환: (약품목록, ok). ok=False 면 요청 실패(429 등)로 신뢰 불가."""
-    url = PLACE_URL.format(pid=pid)
+def fetch_drugs(pid, kind="약국", retries=4) -> tuple[list[str], bool]:
+    """반환: (약품목록, ok). ok=False 면 요청 실패(429 등)로 신뢰 불가.
+    약국은 pharmacy, 의원/병원은 hospital 경로를 사용한다."""
+    path = "pharmacy" if kind == "약국" else "hospital"
+    url = PLACE_URL.format(path=path, pid=pid)
     delay = 2.0
     for attempt in range(retries):
         req = urllib.request.Request(url, headers={
@@ -100,7 +102,7 @@ def main() -> None:
         key = str(pid)
         if key in out:  # 이미 취급 표시 확인됨 → 건너뜀
             continue
-        drugs, ok = fetch_drugs(pid)
+        drugs, ok = fetch_drugs(pid, p.get("kind", "약국"))
         done += 1
         if not ok:
             continue  # 요청 실패(429 등)는 저장 안 함 → 다음 실행 때 재시도

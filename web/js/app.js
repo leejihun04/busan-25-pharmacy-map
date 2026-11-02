@@ -46,20 +46,25 @@
     return `<span class="tag drug" title="네이버 플레이스 등록 정보 · 재고는 전화 확인 권장">💉 ${p.drugs.map(esc).join(', ')}</span>`;
   };
 
+  const kindTag = (p) => {
+    const k = p.kind || '약국';
+    if (k === '약국') return '<span class="tag kind-ph">약국</span>';
+    if (k === '병원') return '<span class="tag kind-cl">병원</span>';
+    return '<span class="tag kind-cl">의원</span>';
+  };
+
   const dbTag = (p) => {
-    let base;
+    let base = kindTag(p);
     if (p.facesign && p.dongbaek === true) {
       const cross = p.crossVerified
         ? '<span class="tag verified" title="조폐공사 공공데이터 + 부산시 동백전 명단 양쪽에서 확인">✓ 교차검증</span>'
         : '';
-      base = '<span class="tag both">25% 가능</span>' + cross;
+      base += '<span class="tag both">25% 가능</span>' + cross;
     } else {
-      const face = '<span class="tag face">페이스사인 10%</span>';
-      let db;
-      if (p.dongbaek === true) db = '<span class="tag db-yes">동백전 가맹</span>';
-      else if (p.dongbaek === false) db = '<span class="tag db-no">동백전 미확인</span>';
-      else db = '<span class="tag db-unknown">동백전 직접확인</span>';
-      base = face + db;
+      base += '<span class="tag face">페이스사인 10%</span>';
+      if (p.dongbaek === true) base += '<span class="tag db-yes">동백전 가맹</span>';
+      else if (p.dongbaek === false) base += '<span class="tag db-no">동백전 미확인</span>';
+      else base += '<span class="tag db-unknown">동백전 직접확인</span>';
     }
     return base + drugTag(p);
   };
@@ -90,7 +95,10 @@
         (p.name||'').toLowerCase().includes(q) || (p.address||'').toLowerCase().includes(q));
     }
     if (state.filter === 'both') list = list.filter((p) => p.dongbaek === true);
-    if (state.filter === 'drug') list = list.filter((p) => p.drugs && p.drugs.length);
+    // 💉 비만약 필터: 비만약 취급 + 25%(동백전+페이스사인) 가능 매장만 (약국·병원 모두)
+    if (state.filter === 'drug') list = list.filter((p) => p.drugs && p.drugs.length && p.dongbaek === true);
+    if (state.filter === 'pharmacy') list = list.filter((p) => (p.kind || '약국') === '약국');
+    if (state.filter === 'clinic') list = list.filter((p) => p.kind === '의원' || p.kind === '병원');
     // 거리 계산
     const origin = state.me || SEOMYEON;
     list.forEach((p) => { p._d = haversine(origin, p); });

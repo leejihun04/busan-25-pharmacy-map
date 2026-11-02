@@ -98,16 +98,44 @@ def collect() -> dict:
     stores = [s for s in stores if _in_region(s)]
     print(f"지역 필터({'/'.join(C.REGION_ADDR_PREFIXES)}): {before} → {len(stores)} (비대상 {before - len(stores)}곳 제외)")
 
-    pharmacies = [s for s in stores if any(k in (s.get("name") or "") for k in C.PHARMACY_KEYWORDS)]
+    def classify(nm: str) -> str | None:
+        """상호로 의료기관 유형 분류. 포함 대상이 아니면 None."""
+        nm = nm or ""
+        if any(x in nm for x in C.MEDICAL_EXCLUDE_KEYWORDS) and "약국" not in nm:
+            return None
+        if "약국" in nm:
+            return "약국"
+        if "한의원" in nm or "한방" in nm:
+            return None  # 한의원은 비만약 처방 대상 아님
+        if "병원" in nm:
+            return "병원"
+        if "의원" in nm:
+            return "의원"
+        if any(x in nm for x in ("클리닉", "메디")):
+            return "의원"
+        return None
+
+    # 약국 + (설정 시)의원/병원 포함
+    included = []
+    for s in stores:
+        kind = classify(s.get("name"))
+        if kind == "약국" or (C.INCLUDE_MEDICAL and kind in ("의원", "병원")):
+            s2 = dict(s)
+            s2["kind"] = kind
+            included.append(s2)
+
+    pharmacies = included  # 이름은 유지하되 이제 약국+의원+병원 포함
+    n_ph = sum(1 for s in included if s["kind"] == "약국")
+    n_cl = sum(1 for s in included if s["kind"] in ("의원", "병원"))
 
     result = {
         "source": "naver_facesign_map",
         "syncYmdt": sync_ymdt,
         "collectedAt": time.strftime("%Y-%m-%d %H:%M:%S"),
         "categories": meta.get("categories"),
-        "counts": {"medical": len(stores), "pharmacy": len(pharmacies)},
-        # 약국만 내보낸다 (병원/한의원 등 의료 전체는 medical_all 로 보관)
-        "pharmacies": sorted(pharmacies, key=lambda x: x.get("name", "")),
+        "counts": {"medical": len(stores), "pharmacy": n_ph, "clinic": n_cl, "included": len(included)},
+        # 약국 + 의원/병원 (각 항목에 kind 포함)
+        "pharmacies": sorted(included, key=lambda x: x.get("name", "")),
         "medical_all": sorted(stores, key=lambda x: x.get("name", "")),
     }
     return result
@@ -117,8 +145,9 @@ def main() -> None:
     C.DATA_DIR.mkdir(parents=True, exist_ok=True)
     result = collect()
     C.FACESIGN_OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    c = result["counts"]
     print(
-        f"\n완료: 약국 {result['counts']['pharmacy']}곳 / 의료 전체 {result['counts']['medical']}곳"
+        f"\n완료: 약국 {c['pharmacy']} + 의원/병원 {c['clinic']} = {c['included']}곳 / 의료 전체 {c['medical']}곳"
         f"\n→ {C.FACESIGN_OUT}"
     )
 

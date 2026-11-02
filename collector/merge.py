@@ -119,6 +119,7 @@ def merge() -> dict:
             "lat": p.get("lat"),
             "lng": p.get("lng"),
             "category": p.get("category"),
+            "kind": p.get("kind", "약국"),
             "naverUrl": p.get("url"),
             "facesign": True,          # 페이스사인 가맹(수집 기준)
             "dongbaek": None,          # None=미확인, True=가맹확인, False=미매칭

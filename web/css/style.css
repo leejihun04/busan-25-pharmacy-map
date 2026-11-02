@@ -72,6 +72,8 @@ body.sheet-expanded #locate, body.sheet-expanded .info-btn{opacity:0;pointer-eve
 .tag.both{background:var(--red);color:#fff}
 .tag.verified{background:#eaf4ff;color:#0b63c4;border-color:#bcdcff}
 .tag.drug{background:#f3e8ff;color:#7b2ff2;border-color:#e3ccff}
+.tag.kind-ph{background:#eef6ff;color:#2563eb;border-color:#cfe0ff}
+.tag.kind-cl{background:#fef3f2;color:#be123c;border-color:#fecdd3}
 .empty{color:var(--muted);text-align:center;padding:40px 20px;font-size:14px}
 
 /* 광고 */
