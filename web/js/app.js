@@ -320,6 +320,35 @@
   // 정보 모달
   $('#infoBtn').addEventListener('click', () => { $('#info').hidden = false; });
   $('#infoClose').addEventListener('click', () => { $('#info').hidden = true; });
+
+  // 25% 적립 계산기
+  function renderCalc() {
+    const amount = Math.max(0, parseInt($('#calcAmount').value || '0', 10) || 0);
+    const dbOn = $('#calcDongbaek').checked;
+    const faceOn = $('#calcFace').checked;
+    const dbRate = dbOn ? (parseFloat($('#calcDbRate').value) || 0) : 0;
+    const faceRate = faceOn ? (parseFloat($('#calcFaceRate').value) || 0) : 0;
+    const el = $('#calcResult');
+    if (!amount) { el.innerHTML = '<div class="calc-empty">금액을 입력하세요.</div>'; return; }
+    const dbPoint = Math.floor(amount * dbRate / 100);
+    const facePoint = Math.floor(amount * faceRate / 100);
+    const totalPoint = dbPoint + facePoint;
+    const totalRate = dbRate + faceRate;
+    const real = amount - totalPoint;
+    const won = (n) => n.toLocaleString('ko-KR') + '원';
+    el.innerHTML = `
+      <div class="cr-row"><span>결제 금액</span><b>${won(amount)}</b></div>
+      <div class="cr-row sub"><span>동백전 적립 (${dbRate}%)</span><span>+${won(dbPoint)}</span></div>
+      <div class="cr-row sub"><span>페이스사인 적립 (${faceRate}%)</span><span>+${won(facePoint)}</span></div>
+      <div class="cr-row total"><span>총 적립 (${totalRate}%)</span><b>${won(totalPoint)}</b></div>
+      <div class="cr-row real"><span>적립 반영 실질 부담</span><b>${won(real)}</b></div>`;
+  }
+  $('#calcBtn').addEventListener('click', () => { $('#calc').hidden = false; renderCalc(); });
+  $('#calcClose').addEventListener('click', () => { $('#calc').hidden = true; });
+  ['#calcAmount', '#calcDongbaek', '#calcFace', '#calcDbRate', '#calcFaceRate'].forEach((sel) => {
+    $(sel).addEventListener('input', renderCalc);
+    $(sel).addEventListener('change', renderCalc);
+  });
   document.querySelectorAll('.modal').forEach((m) => m.addEventListener('click', (e) => { if (e.target === m) m.hidden = true; }));
 
   // Service Worker 제거: 과거 버전이 코드를 캐시해 갱신을 막는 문제를 없앤다.

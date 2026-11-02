@@ -115,7 +115,29 @@ body.sheet-expanded #locate, body.sheet-expanded .info-btn{opacity:0;pointer-eve
 
 .info-btn{position:absolute;left:14px;z-index:620;bottom:calc(var(--sheet-h) + 16px + var(--safe-b));
   width:36px;height:36px;border-radius:50%;background:#fff;border:1px solid var(--line);
-  box-shadow:0 2px 8px rgba(0,0,0,.12);color:#6b7280;font-size:16px;cursor:pointer;transition:bottom .2s}
+  box-shadow:0 2px 8px rgba(0,0,0,.12);color:#6b7280;font-size:16px;cursor:pointer;transition:opacity .2s}
+.calc-btn{position:absolute;left:14px;z-index:620;bottom:calc(var(--sheet-h) + 60px + var(--safe-b));
+  width:36px;height:36px;border-radius:50%;background:#fff;border:1px solid var(--line);
+  box-shadow:0 2px 8px rgba(0,0,0,.12);font-size:17px;cursor:pointer;transition:opacity .2s}
+body.sheet-expanded .calc-btn{opacity:0;pointer-events:none}
+
+/* 계산기 */
+.calc-body{display:flex;flex-direction:column;gap:12px;overflow-y:auto}
+.calc-desc{font-size:13.5px;color:#4b5563;line-height:1.5;margin:0}
+.calc-field{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:700;color:#374151}
+.calc-field input{border:1px solid var(--line);border-radius:10px;padding:13px 14px;font-size:17px;font-weight:700;outline:none}
+.calc-field input:focus{border-color:var(--red)}
+.calc-rates{display:flex;flex-direction:column;gap:10px}
+.calc-rates label{display:flex;align-items:center;gap:8px;font-size:13.5px;color:#374151}
+.calc-rates select{margin-left:auto;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:13px}
+.calc-result{background:#f8f9fa;border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:7px}
+.calc-empty{color:var(--muted);font-size:13px;text-align:center}
+.cr-row{display:flex;justify-content:space-between;font-size:13.5px;color:#374151}
+.cr-row.sub{color:#6b7280;font-size:12.5px;padding-left:6px}
+.cr-row.total{border-top:1px dashed #d1d5db;padding-top:8px;color:var(--red-d)}
+.cr-row.real{font-size:15.5px;color:var(--ink)}
+.cr-row.real b{color:var(--red);font-size:17px}
+.calc-note{font-size:11.5px;color:#8a6d3b;background:#fff6e6;border:1px solid #ffe6b0;border-radius:8px;padding:9px 11px;line-height:1.5;margin:0}
 
 /* 상세 보기 (사용 안 함 — 목록 카드에 통합) */
 
