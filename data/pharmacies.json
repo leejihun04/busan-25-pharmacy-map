@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-02 13:39:57",
+  "generatedAt": "2026-11-02 04:49:09",
   "facesignSyncYmdt": "2026-11-01 15:30:00",
   "dongbaekEnabled": true,
-  "dongbaekCollectedAt": "2026-11-02 13:38:37",
+  "dongbaekCollectedAt": "2026-11-02 04:47:55",
   "dongbaekSources": {
     "komsco": {
       "enabled": true,
       "reason": null,
-      "count": 222061,
-      "coordsCount": 156424
+      "count": 220351,
+      "coordsCount": 155125
     },
     "busan": {
       "enabled": false,
