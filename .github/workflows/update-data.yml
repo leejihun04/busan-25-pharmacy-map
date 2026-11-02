@@ -61,6 +61,37 @@ jobs:
         working-directory: collector
         run: python merge.py
 
+      - name: 데이터 품질 가드 (회귀 방지)
+        run: |
+          python - <<'PY'
+          import json, sys
+          new = json.load(open('web/data/pharmacies.json'))
+          nc = new['counts']
+          # 기존(git에 커밋된) 데이터와 비교
+          import subprocess
+          try:
+            old_raw = subprocess.check_output(['git','show','HEAD:web/data/pharmacies.json'])
+            oc = json.loads(old_raw)['counts']
+          except Exception:
+            oc = None
+          ph = nc.get('pharmacy') or 0
+          both = nc.get('both25')
+          print(f"신규: 약국 {ph} / 25% {both} / 교차검증 {nc.get('crossVerified')}")
+          # 1) 약국 수가 비정상적으로 적으면 중단(수집 실패 의심)
+          if ph < 150:
+            print(f"::error::약국 수 {ph} 가 너무 적음(수집 실패 의심). 배포 중단."); sys.exit(1)
+          # 2) 동백전이 비활성(fallback)인데 과거엔 활성이었다면 회귀 → 중단
+          if not new.get('dongbaekEnabled'):
+            if oc and oc.get('both25'):
+              print("::error::동백전 매칭이 fallback(비활성)으로 회귀. 과거엔 활성이었음 → 배포 중단."); sys.exit(1)
+            print("::warning::동백전 비활성 상태로 진행(과거에도 비활성)")
+          else:
+            # 3) 25% 매칭이 과거 대비 50% 넘게 급감하면 중단
+            if oc and oc.get('both25') and both is not None and both < oc['both25'] * 0.5:
+              print(f"::error::25% 매칭 급감 {oc['both25']}→{both}. 배포 중단."); sys.exit(1)
+          print("품질 가드 통과")
+          PY
+
       - name: 배포 전 중간 산출물 정리 (대용량 제외)
         run: |
           rm -f web/data/dongbaek.json web/data/dongbaek_komsco.json \
