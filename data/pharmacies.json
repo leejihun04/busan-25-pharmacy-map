@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-02 04:49:09",
-  "facesignSyncYmdt": "2026-11-01 15:30:00",
+  "generatedAt": "2026-11-08 21:55:25",
+  "facesignSyncYmdt": "2026-11-08 15:30:00",
   "dongbaekEnabled": true,
-  "dongbaekCollectedAt": "2026-11-02 04:47:55",
+  "dongbaekCollectedAt": "2026-11-08 21:54:29",
   "dongbaekSources": {
     "komsco": {
       "enabled": true,
       "reason": null,
-      "count": 220351,
-      "coordsCount": 155125
+      "count": 218545,
+      "coordsCount": 154269
     },
     "busan": {
       "enabled": false,
@@ -18,16 +18,16 @@
     }
   },
   "counts": {
-    "pharmacy": 471,
-    "both25": 471,
-    "crossVerified": 455,
+    "pharmacy": 489,
+    "both25": 489,
+    "crossVerified": 473,
     "withDrugInfo": 21,
     "matchBy": {
-      "coord": 461,
+      "coord": 479,
       "addr": 10
     },
     "sourceHit": {
-      "KOMSCO": 471,
+      "KOMSCO": 489,
       "BUSAN": 0
     }
   },
@@ -286,6 +286,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 1541444112,
+      "name": "개금박내과의원",
+      "address": "부산광역시 부산진구 가야대로 482 2층, 3층",
+      "lat": 35.1529133,
+      "lng": 129.024695,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/1541444112",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 1368160758,
       "name": "개금현대약국",
       "address": "부산 부산진구 엄광로 33 1층",
@@ -378,7 +396,7 @@
     {
       "placeId": 36943732,
       "name": "걷자의원 부산점",
-      "address": "부산광역시 수영구 수영로 729 3층 걷자의원",
+      "address": "부산 수영구 수영로 729 3층 걷자의원",
       "lat": 35.1687131,
       "lng": 129.1189969,
       "category": "의료",
@@ -973,6 +991,24 @@
       "category": "의료",
       "kind": "의원",
       "naverUrl": "https://map.naver.com/p/entry/place/35782035",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 20132536,
+      "name": "노블레스성형외과의원 본점",
+      "address": "부산광역시 해운대구 센텀2로 20 3층",
+      "lat": 35.1671977,
+      "lng": 129.1320258,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/20132536",
       "facesign": true,
       "dongbaek": true,
       "dongbaekStatus": "계속사업자",
@@ -1837,6 +1873,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 1231990785,
+      "name": "리즈인여성의원",
+      "address": "부산 부산진구 새싹로 22-1 라이프빌리지 7-9층",
+      "lat": 35.1598604,
+      "lng": 129.0577909,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/1231990785",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 1114278999,
       "name": "리팅성형외과의원 부산",
       "address": "부산 부산진구 범일로 177 2층, 3층",
@@ -2026,8 +2080,8 @@
       "placeId": 19525761,
       "name": "메디팜동산약국",
       "address": "부산 수영구 수영로464번길 9",
-      "lat": 35.1472787,
-      "lng": 129.1110702,
+      "lat": 35.1473231,
+      "lng": 129.1110832,
       "category": "의료",
       "kind": "약국",
       "naverUrl": "https://map.naver.com/p/entry/place/19525761",
@@ -2459,6 +2513,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 21125495,
+      "name": "미플러스센텀의원",
+      "address": "부산 해운대구 센텀남대로 50",
+      "lat": 35.1681388,
+      "lng": 129.1313035,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/21125495",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 13249689,
       "name": "민정식소아청소년과의원",
       "address": "부산 사상구 사상로 293 민정식소아청소년과의원",
@@ -2605,7 +2677,7 @@
     {
       "placeId": 13250203,
       "name": "박진훈의원",
-      "address": "부산광역시 동구 진성로 15",
+      "address": "부산 동구 진성로 15",
       "lat": 35.1301289,
       "lng": 129.0475894,
       "category": "의료",
@@ -2801,6 +2873,24 @@
       "crossVerified": false
     },
     {
+      "placeId": 1209691442,
+      "name": "백의원",
+      "address": "부산광역시 동구 진성로 22 5층 백의원",
+      "lat": 35.1305357,
+      "lng": 129.0474719,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/1209691442",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 19531281,
       "name": "백일약국",
       "address": "부산 해운대구 좌동순환로249번길 21 아이에스프라자",
@@ -2809,6 +2899,24 @@
       "category": "의료",
       "kind": "약국",
       "naverUrl": "https://map.naver.com/p/entry/place/19531281",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2045938073,
+      "name": "밴스의원 남포점",
+      "address": "부산광역시 중구 비프광장로 40 5층",
+      "lat": 35.0982434,
+      "lng": 129.0289108,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/2045938073",
       "facesign": true,
       "dongbaek": true,
       "dongbaekStatus": "계속사업자",
@@ -3166,6 +3274,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 13250942,
+      "name": "부산아동병원",
+      "address": "부산광역시 남구 수영로 228",
+      "lat": 35.1349057,
+      "lng": 129.0914972,
+      "category": "의료",
+      "kind": "병원",
+      "naverUrl": "https://map.naver.com/p/entry/place/13250942",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 11622069,
       "name": "부산이지함피부과의원",
       "address": "부산 부산진구 서면로 64 1층",
@@ -3192,6 +3318,24 @@
       "category": "의료",
       "kind": "약국",
       "naverUrl": "https://map.naver.com/p/entry/place/19525786",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 19515008,
+      "name": "부전약국",
+      "address": "부산 부산진구 중앙대로 755",
+      "lat": 35.1599904,
+      "lng": 129.0606524,
+      "category": "의료",
+      "kind": "약국",
+      "naverUrl": "https://map.naver.com/p/entry/place/19515008",
       "facesign": true,
       "dongbaek": true,
       "dongbaekStatus": "계속사업자",
@@ -3394,6 +3538,24 @@
       "category": "의료",
       "kind": "의원",
       "naverUrl": "https://map.naver.com/p/entry/place/13250465",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 1013476684,
+      "name": "삼성온누리약국",
+      "address": "부산광역시 사하구 낙동대로 448",
+      "lat": 35.105198,
+      "lng": 128.9697402,
+      "category": "의료",
+      "kind": "약국",
+      "naverUrl": "https://map.naver.com/p/entry/place/1013476684",
       "facesign": true,
       "dongbaek": true,
       "dongbaekStatus": "계속사업자",
@@ -3659,8 +3821,8 @@
       "placeId": 1931919287,
       "name": "서문약국",
       "address": "부산 연제구 연동로8번길 44 1층",
-      "lat": 35.1893333,
-      "lng": 129.0914956,
+      "lat": 35.1892966,
+      "lng": 129.0915164,
       "category": "의료",
       "kind": "약국",
       "naverUrl": "https://map.naver.com/p/entry/place/1931919287",
@@ -4147,6 +4309,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 11588305,
+      "name": "속편한내과의원",
+      "address": "부산광역시 동래구 충렬대로155번길 19 성림빌딩 4~7층",
+      "lat": 35.2058047,
+      "lng": 129.0770694,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/11588305",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 360807271,
       "name": "손정신건강의학과의원",
       "address": "부산 해운대구 재반로 86 재송메디컬빌딩 3층",
@@ -4545,7 +4725,7 @@
     {
       "placeId": 19515196,
       "name": "시장약국",
-      "address": "부산광역시 북구 효열로 221 금곡제일상가 201호",
+      "address": "부산 북구 효열로 221 금곡제일상가 201호",
       "lat": 35.2639169,
       "lng": 129.0193165,
       "category": "의료",
@@ -5057,6 +5237,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 11601452,
+      "name": "얼굴선 성형외과의원",
+      "address": "부산광역시 부산진구 부전로66번길 50",
+      "lat": 35.1557641,
+      "lng": 129.0574418,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/11601452",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 19515100,
       "name": "엄지약국",
       "address": "부산 수영구 수영로 513",
@@ -5165,6 +5363,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 2005439348,
+      "name": "엘블랑의원",
+      "address": "부산광역시 부산진구 부전로 77 4층",
+      "lat": 35.1569247,
+      "lng": 129.0545121,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/2005439348",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 19525830,
       "name": "연동시장약국",
       "address": "부산 연제구 연동로 14",
@@ -5219,11 +5435,29 @@
       "crossVerified": true
     },
     {
+      "placeId": 13252133,
+      "name": "연산예스비뇨기과의원",
+      "address": "부산 연제구 반송로 9 영남빌딩 3층 연산예스비뇨기과의원",
+      "lat": 35.1867509,
+      "lng": 129.0822326,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/13252133",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 19520475,
       "name": "연산중앙약국",
       "address": "부산 연제구 과정로 274",
-      "lat": 35.1880906,
-      "lng": 129.0974829,
+      "lat": 35.1881011,
+      "lng": 129.0974211,
       "category": "의료",
       "kind": "약국",
       "naverUrl": "https://map.naver.com/p/entry/place/19520475",
@@ -6543,7 +6777,7 @@
       "name": "정관이온내과의원",
       "address": "부산 기장군 정관읍 정관로 579 801호, 802호, 803호",
       "lat": 35.3213769,
-      "lng": 129.1771724,
+      "lng": 129.1771725,
       "category": "의료",
       "kind": "의원",
       "naverUrl": "https://map.naver.com/p/entry/place/2080160898",
@@ -6691,6 +6925,24 @@
       "category": "의료",
       "kind": "의원",
       "naverUrl": "https://map.naver.com/p/entry/place/13249724",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 31705007,
+      "name": "정요양병원",
+      "address": "부산 영도구 절영로 32",
+      "lat": 35.0917052,
+      "lng": 129.0390672,
+      "category": "의료",
+      "kind": "병원",
+      "naverUrl": "https://map.naver.com/p/entry/place/31705007",
       "facesign": true,
       "dongbaek": true,
       "dongbaekStatus": "계속사업자",
@@ -6956,8 +7208,8 @@
       "placeId": 12847974,
       "name": "조이비인후과의원",
       "address": "부산 수영구 수영로 511-1",
-      "lat": 35.1516173,
-      "lng": 129.1112496,
+      "lat": 35.1516236,
+      "lng": 129.1112215,
       "category": "의료",
       "kind": "의원",
       "naverUrl": "https://map.naver.com/p/entry/place/12847974",
@@ -6979,6 +7231,24 @@
       "category": "의료",
       "kind": "의원",
       "naverUrl": "https://map.naver.com/p/entry/place/19526710",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 13567346,
+      "name": "좋은부산요양병원",
+      "address": "부산 사상구 학감대로39번길 67",
+      "lat": 35.133499,
+      "lng": 128.996512,
+      "category": "의료",
+      "kind": "병원",
+      "naverUrl": "https://map.naver.com/p/entry/place/13567346",
       "facesign": true,
       "dongbaek": true,
       "dongbaekStatus": "계속사업자",
@@ -7391,7 +7661,7 @@
     {
       "placeId": 13249622,
       "name": "최광웅내과의원",
-      "address": "부산광역시 사하구 낙동대로 223",
+      "address": "부산 사하구 낙동대로 223",
       "lat": 35.0996867,
       "lng": 128.9925399,
       "category": "의료",
@@ -7464,8 +7734,8 @@
       "placeId": 2084158652,
       "name": "최선마취통증의학과의원",
       "address": "부산 연제구 월드컵대로 282 1층 101호",
-      "lat": 35.1913718,
-      "lng": 129.0668679,
+      "lat": 35.1914133,
+      "lng": 129.0670166,
       "category": "의료",
       "kind": "의원",
       "naverUrl": "https://map.naver.com/p/entry/place/2084158652",
@@ -7929,6 +8199,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 21278858,
+      "name": "하단성모안과의원",
+      "address": "부산 사하구 낙동대로 448 5층",
+      "lat": 35.1052299,
+      "lng": 128.9697917,
+      "category": "의료",
+      "kind": "의원",
+      "naverUrl": "https://map.naver.com/p/entry/place/21278858",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 1229493068,
       "name": "하단제일내과의원",
       "address": "부산 사하구 낙동남로 1406 정우빌딩 6층, 11층",
@@ -8077,6 +8365,24 @@
       "crossVerified": true
     },
     {
+      "placeId": 34650144,
+      "name": "한양류마디병원",
+      "address": "부산광역시 연제구 과정로 272",
+      "lat": 35.1882294,
+      "lng": 129.0976731,
+      "category": "의료",
+      "kind": "병원",
+      "naverUrl": "https://map.naver.com/p/entry/place/34650144",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
       "placeId": 19517291,
       "name": "한주의원",
       "address": "부산 사하구 낙동대로 197-1",
@@ -8121,6 +8427,24 @@
       "category": "의료",
       "kind": "의원",
       "naverUrl": "https://map.naver.com/p/entry/place/19517103",
+      "facesign": true,
+      "dongbaek": true,
+      "dongbaekStatus": "계속사업자",
+      "dongbaekMatchBy": "coord",
+      "dongbaekSources": [
+        "KOMSCO"
+      ],
+      "crossVerified": true
+    },
+    {
+      "placeId": 2024692630,
+      "name": "해운대메가허브약국",
+      "address": "부산광역시 해운대구 해운대로 813 지하1층",
+      "lat": 35.1705303,
+      "lng": 129.1770392,
+      "category": "의료",
+      "kind": "약국",
+      "naverUrl": "https://map.naver.com/p/entry/place/2024692630",
       "facesign": true,
       "dongbaek": true,
       "dongbaekStatus": "계속사업자",
